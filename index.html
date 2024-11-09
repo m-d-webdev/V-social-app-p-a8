@@ -1,0 +1,2950 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mohtawastyle.css">
+    <link rel="stylesheet" href="buypage.css">
+    <link rel="stylesheet" href="salepage.css">
+    <link rel="stylesheet" href="chatpage.css">
+    <link rel="stylesheet" href="stylesignin.css">
+    <link rel="stylesheet" href="CNTnotification.css">
+    <link rel="stylesheet" href="styleOFmessage.css">
+    <link rel="stylesheet" href="styleswichac.css">
+    <link rel="stylesheet" href="firststyle.css">
+    <link rel="stylesheet" href="styleprofile.css">
+</head>
+
+<body>
+    <div class="div1">
+        <h1><span class="m">M</span><span class="s">S</span><span class="t">T</span><span class="p">P</span><span
+                class="h">H</span></h1>
+        <div class=CNTlista>
+            <li><a href="#" onclick="activesalepage()">Sale</a></li>
+            <li onclick="activebuypage()"><a href="#">Buy</a></li>
+            <li><a href="#">View the market</a></li>
+            <li><a href="#">stock market</a></li>
+        </div>
+        <div class="cntbutton">
+            <button onclick="aciveCNTnotification()" class="bntcntnot"><img src="images/notification (1).png"
+                    width="30px" alt="">
+                <p>Notification</p>
+            </button>
+            <button onclick="downcntmesg()" class="btnna9is1"><img src="images/parler.png" width="30" alt="">
+                <p>Messages</p>
+            </button>
+            <button class="button1 buttons">shipping</button>
+            <div class="containerprofmenu">
+                <button class="button2">
+                    <img src="images/profil.png" class="imageOFprofile2" width="30" alt="">
+                </button>
+                <div class="meneuprofil">
+                    <div onclick="downprofileer()" class="youraccount">
+                        <img src="images/profil.png" class="imageOfprofile3" width="30px" alt=""> Profile personly
+                    </div>
+                    <div onclick=" downaddnweaccount()"><img
+                            src="images/icons8-swich-between-duties-of-same-department-role-24.png" width="25px"
+                            alt="">Swich account</div>
+                    <div onclick="downscan()"><img src="images/add-user_4202263.png" width="25px" alt="">Add friend
+                    </div>
+                    <div><img src="images/settings_824700.png" width="25" alt=""> Setting</div>
+                    <div onclick="activesignin()"><img src="images/icons8-importer-50.png" width="25" alt="">Sign in
+                    </div>
+                    <div onclick="downalerttc()"><img src="images/logout_1828427.png" width="27" alt=""> Loug out</div>
+                    <button class="closebtn"><img src="images/close2.png" width="13" alt=""></button>
+                </div>
+                <p class="pprofiletext">Profile</p>
+            </div>
+        </div>
+    </div>
+    <div class="shippingpage">
+        <div>
+            <button class="closebtn2"><img src="images/close2.png" width="15" alt=""></button>
+            <h1>SHIPPING</h1>
+        </div>
+        <div onclick="uplabel()" class="cnt1"><label id="cntlabel" for="">G-mail</label> <input type="email" name=""
+                id="cntinput" placeholder="email@gmail.com"></div>
+        <div onclick="uplabel()" class="cnt1 vpn1"><label id="cntlabel" for="">Password</label> <input type="password"
+                name="" id="cntinput" placeholder="xxxxxxxxxxx"></div>
+        <div onclick="uplabel()" class="cnt1 vpn2"><label id="cntlabel" for="">Phone</label> <input type="email" name=""
+                id="cntinput" placeholder="+0000000000"></div>
+        <div class="cntmonryicvon">
+            <label for="The balance you want to charge">The balance you want to charge</label>
+            <button onclick="showhowmini()">
+                <img src="images/monryicone.png" width="40" alt="">
+            </button>
+            <div class="howmini">
+                <input type="text" id="bl" placeholder="00.00">
+                <select name="" id="ble">
+                    <option value=""></option>
+                    <option value="USD">USD</option>
+                    <option value="EURO">EURO</option>
+                    <option value="JPY">JPY</option>
+                </select>
+                <button onclick="showhowmini()">OK</button>
+            </div>
+        </div>
+        <div id="balance"> </div>
+        <div class="div7">
+            <label for="payment method">Payment method :</label>
+            <form action="">
+                <button><img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/Cih-bank.png" width="100"
+                        alt=""></button>
+                <button> <img src="https://upload.wikimedia.org/wikipedia/en/4/49/ATTIJARIWAFA_BANK_LOGO.png" width="90"
+                        alt="">
+                </button>
+                <button><img
+                        src="https://www.almokawil.com/wp-content/uploads/2021/09/%D9%85%D8%A4%D8%B3%D8%B3%D8%A9-%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D8%AF-%D8%A8%D9%86%D9%83-Al-Barid-Bank.jpg"
+                        width="90" alt=""></button>
+                <button><img data-v-6be23ab2=""
+                        srcset="https://img.icons8.com/?size=256&amp;id=ZPKFaFRgIh1X&amp;format=png 1x, https://img.icons8.com/?size=512&amp;id=ZPKFaFRgIh1X&amp;format=png 2x"
+                        width="50" height="50"></button>
+                <button><img data-v-6be23ab2=""
+                        srcset="https://img.icons8.com/?size=256&amp;id=IiNwlDiMnWjA&amp;format=png 1x, https://img.icons8.com/?size=512&amp;id=IiNwlDiMnWjA&amp;format=png 2x"
+                        width="50" height="50"></button>
+                <button><img data-v-6be23ab2=""
+                        srcset="https://img.icons8.com/?size=256&amp;id=13607&amp;format=png 1x, https://img.icons8.com/?size=512&amp;id=13607&amp;format=png 2x"
+                        width="50" height="50"></button>
+                <button><img data-v-6be23ab2=""
+                        srcset="https://img.icons8.com/?size=256&amp;id=pFNd0FTuBU2Q&amp;format=png 1x, https://img.icons8.com/?size=512&amp;id=pFNd0FTuBU2Q&amp;format=png 2x"
+                        width="50" height="50"></button>
+                <button><img src="https://cdn-icons-png.flaticon.com/512/39/39184.png" width="50" height="50"
+                        alt="symboles Icône gratuit" title="symboles Icône gratuit"></button>
+                <button><img src="images/icons8-paypal-24.png" width="40" alt=""></button>
+                <button><img src="images/icons8-découvrir-48.png" width="50" alt=""></button>
+                <button><img src="images/icons8-apple-pay-48.png" width="50" alt=""></button>
+            </form>
+        </div>
+        <div class="div8" onclick="ship()"><button>ship</button></div>
+
+    </div>
+    <div class="Shipping_completed">
+        <div>
+            <img src="images/check_5610944.png" width="60" alt="">
+            <label for=""> Shipping completed</label>
+            <button onclick="ok()">ok</button>
+        </div>
+    </div>
+    <div class="PROFILEpage">
+        <div id="div1">
+            <a onclick="downprofileer()" href="#" class="bck"> <img src="images/close2.png" width="30" alt="">
+                <p class="pback">Close</p>
+            </a>
+            <form action="">
+                <div class="cntimage">
+                    <input type="file" id="inptFile" style="display: none;">
+                    <img src="images/profil.png" class="imageOfProfile" alt=""><button type="button" id="changeimg"><img
+                            src="images/ledition-dimage.png" id="imgche" width="15" alt=""></button>
+                </div>
+                <div class="div_11">Mr.Bateman </div>
+                <li>
+                    <p>Followers : <span>200.12M</span></p>
+                    <p>Following : <span>45</span></p>
+                </li>
+            </form>
+            <div class="div_10">
+                <button onclick="downdiv111()">Information card</button>
+                <button id="btnfriends" onclick="downlistfrien()" class="ctnback"><img src="images/friends.png"
+                        alt="">Friends</button>
+
+            </div>
+            <div class="div_111">
+                <h5>Information card</h5>
+                <div class="cnoptioniv111">
+                    <p>Full name :</p>
+                    <h6 id="fullnameprofile">Mustapha iderkaoui</h6><img class="imgedi1" src="images/pen_10337031.png"
+                        alt="">
+                </div>
+                <div class="cnoptioniv111">birth's date : <h6 id="ageprofile"></h6><img class="imgedi2"
+                        src="images/pen_10337031.png" alt=""></div>
+                <div class="cnoptioniv111">Adress : <h6 id="Adressprofile"></h6><img class="imgedi3"
+                        src="images/pen_10337031.png" alt=""></div>
+                <div class="cnoptioniv111">E-mail : <h6 id="emailprofile"></h6><img class="imgedi4"
+                        src="images/pen_10337031.png" alt=""></div>
+                <div class="cnoptioniv111">Phone : <h6 id="phoneprofile"></h6><img class="imgedi5"
+                        src="images/pen_10337031.png" alt=""></div>
+                <div class="cnoptioniv111">ID : <h6 id="idprofile"></h6><img class="imgedi6"
+                        src="images/pen_10337031.png" alt=""></div>
+                <button onclick="downdiv111()"><img src="images/closebtn.png" width="10" alt=""></button>
+            </div>
+        </div>
+        <div class="listfriendsPAGE">
+            <button onclick="downlistfrien()" class="ctnback"><img src="images/back.png" alt=""></button>
+            <div class="listfriends">
+                <div class="cntinput12"><input type="text"><img src="images/search.png" alt=""></div>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+                <form action=""><img class="img1" src="images/Patrick Bateman.jpeg" alt="">
+                    <div cllass="cntp">
+                        <p>Patrick Bateman</p>
+                    </div><img class="img2" src="images/anti messag.png" alt=""><img class="img3" src="images/ban.png"
+                        alt="">
+                </form>
+
+
+
+                <button>Add friends</button>
+            </div>
+        </div>
+        <div class="menusetign">
+            <span class="columnmv"></span>
+            <label for="" class="fatherchannelmenu">
+                <img src="images/interactif.png" alt="">
+                <p class="p5p">Channel</p>
+            </label>
+            <label for="" class="savedlbl">
+                <img src="images/entreprise.png" alt="">
+                <p class="p5p">Saved</p>
+            </label>
+            <label for="" class="lkdlbl">
+                <img src="images/jaime-le-bouton.png" alt="">
+                <p class="p5p">Liked</p>
+            </label>
+            <label for="" class="cvllbl">
+                <img src="images/civil-engineering.png" alt="">
+                <p class="p5p">Civil</p>
+            </label>
+            <label for="" class="sttinglbl" id="sttinglbl2">
+                <img src="images/parametres-des-engrenages.png" alt="">
+                <p class="p5p">Settings</p>
+            </label>
+            <div class="settmenu">
+                <label for="">
+                    <img src="images/utilisateur.png" alt="">
+                    <p class="p5p">Account</p>
+                </label>
+                <label for="">
+                    <img src="images/notification22.png" alt="">
+                    <p class="p5p">Notifications</p>
+                </label>
+                <label for="">
+                    <img src="images/langue.png" alt="">
+                    <p class="p5p">Language</p>
+                </label>
+                <label for="">
+                    <img src="images/confidentialite.png" alt="">
+                    <p class="p5p">Privacy</p>
+                </label>
+                <label for="">
+                    <img src="images/icons8-lien-50.png" alt="">
+                    <p class="p5p">Linked application</p>
+                </label>
+                <label for="">
+                    <img src="images/parametres-web.png" alt="">
+                    <p class="p5p">Advanced Settings</p>
+                </label>
+            </div>
+            <label for="" class="hlplbl">
+                <img src="images/faq.png" alt="">
+                <p class="p5p">Help</p>
+            </label>
+        </div>
+        <button type="button" class="actvsietting">
+            <img src="images/close2.png" alt="">
+        </button>
+        <div class="actvsiettingspan">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="channelmenu">
+            <img src="images/profil.png" class="imagechnpr" alt="">
+            <p class="pchpro">Mustapha iderkaoui</p>
+            <p class="pchpro2">mustaphaderkaoui@gamil.com</p>
+            <input type="search" id="searchchnn" placeholder="search">
+            <button class="sellyact">See all your activities</button>
+            <div class="addfdkon">
+                <form action="">
+                    <img src="images/ajouter.png" alt="">
+                    <p class="clasp">Add Document</p>
+                </form>
+                <form action="">
+                    <img src="images/icons8-add-video-78.png" alt="">
+                    <p class="clasp">Add Video</p>
+                </form>
+                <form action="">
+                    <img src="images/icons8-ajouter-une-image-64.png" alt="">
+                    <p class="clasp">Add Image</p>
+                </form>
+                <form action="">
+                    <img src="images/icons8-ajouter-administrateur-50.png" alt="">
+                    <p class="clasp">Add Man/woma</p>
+                </form>
+            </div>
+
+        </div>
+        <div class="savedpag">
+            <h1><span class="m">M</span><span class="s">S</span><span class="t">T</span><span class="p">P</span><span
+                    class="h">H</span></h1>
+            <img src="images/parametres2.png" class="imgsvd1" alt="">
+            <p class="stp">Setting</p>
+            <h2>Saved </h2>
+            <img src="images/symbole.png" alt="" class="symbole">
+            <p class="Customizse">Customize</p>
+            <img src="images/question.png" class="questionimg" alt="">
+            <p class="Nothing">Nothing here</p>
+            <input type="search" placeholder="Search ...">
+        </div>
+        <div class="civilpg">
+            <img src="images/parametres2.png" class="imgcv" alt="">
+            <p class="stp">Setting</p>
+            <h1><span class="m">M</span><span class="s">S</span><span class="t">T</span><span class="p">P</span><span
+                    class="h">H</span></h1>
+            <div class="curve">
+                <p class="activep">Active</p>
+                <p class="achour">Hour</p>
+                <img src="images/ChartGo.svg" alt="">
+            </div>
+            <img src="images/fleche-vers-le-bas.png" class="flech2" alt="">
+            <img src="images/menu2.png" alt="" class="menu2">
+        </div>
+        <div class="lkdpg">
+            <h1><span class="m">M</span><span class="s">S</span><span class="t">T</span><span class="p">P</span><span
+                    class="h">H</span></h1>
+            <img src="images/parametres2.png" class="imgcv" alt="">
+            <p class="stp">Setting</p>
+            <div class="lstlkd">
+                <label for="" class="lbllst1">
+                    <p>USER name__ X 1</p>
+                    <img src="images/utilisateur2.png" alt="">
+                </label>
+                <label for="" class="lbllst2">
+                    <p>USER name__ X 2</p>
+                    <img src="images/utilisateur2.png" alt="">
+                </label>
+                <label for="" class="lbllst3">
+                    <p>USER name__ X 3</p>
+                    <img src="images/utilisateur2.png" alt="">
+                </label>
+                <label for="" class="lbllst4">
+                    <p>USER name__ X 4</p>
+                    <img src="images/utilisateur2.png" alt="">
+                </label>
+                <label for="" class="lbllst5">
+                    <p>USER name__ X 5</p>
+                    <img src="images/utilisateur2.png" alt="">
+                </label>
+                <label for="" class="lbllst6">
+                    <p>USER name__ X 6</p>
+                    <img src="images/utilisateur2.png" alt="">
+                </label>
+                <label for="" class="lbllst7">
+                    <p>USER name__ X 7</p>
+                    <img src="images/utilisateur2.png" alt="">
+                </label>
+                <label for="" class="lbllst8">
+                    <p>USER name__ X 8</p>
+                    <img src="images/utilisateur2.png" alt="">
+                </label>
+            </div>
+            <div class="pginr">
+                <div class="baremnpginr">
+                    <img class="usrimg" src="images/utilisateur2.png" alt="">
+                    <p>Mr.user</p>
+                    <h5>useremail@gmail.com</h5>
+                    <h6>WD.15.06.2023</h6>
+                    <img src="images/envoyer2.png" class="envsmg" alt="">
+                </div>
+                <div class="containercontentpg">
+                    <h3 class="cnttext"></h3>
+                    <img src="photos/Autoblog bmw.jpeg" class="content" alt="">
+                </div>
+                <div class="likit">
+                    <img src="photos/comme (1).png" class="likyad" alt="">
+                    <img src="photos/commentaire.png" alt="">
+                    <img src="photos/lien-rompu.png" alt="">
+                    <img src="photos/non-recommande.png" class="nonlik" alt="">
+                    <img src="photos/facebook-messenger.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="helppg">
+            <h1><span class="m">M</span><span class="s">S</span><span class="t">T</span><span class="p">P</span><span
+                    class="h">H</span></h1>
+            <h2>Help is requested by describing the type of problem and it is addressed by an official</h2>
+            <label for="">
+                <input type="text" placeholder=" " class="desproblem">
+                <p class="tpprtext">Write the type of problem ...</p>
+            </label>
+            <button class="sendbtn">Send</button>
+        </div>
+        <div class="problesend">
+            <div>
+                <img src="photos/envoyer  msg2.png" alt="">
+                <h1>Message has been sent</h1>
+                <h4>You will find the answer in the mail in a few minutes</h4>
+                <button class="endenbtnpr">Ending</button>
+                <span class="sp1"></span>
+                <span class="sp2"></span>
+                <span class="sp3"></span>
+            </div>
+        </div>
+    </div>
+    <div class="SWICHACCOUNT">
+        <div class="DIV1">
+            <button onclick=" downaddnweaccount()" id="btnbaaack"><img src="images/close2.png" alt="">
+                <p class="pbutun">Close</p>
+            </button>
+
+            <h1>Add new account</h1>
+            <div onclick="activeelabel()" class="cntlabelplusinput"><label class="labell" for=""><input type="text"
+                        id="inp1">
+                    <p class="labelp">email -phone-user name</p>
+                </label></div>
+            <div onclick="activeelabel()" class="cntlabelplusinput"><label class="labell2" for=""><input type="text"
+                        id="inp2">
+                    <p class="labelp">Passworld</p>
+                </label></div>
+            <div onclick="activeelabel()" class="cntlabelplusinput"><label class="labell3" for=""><input type="text"
+                        id="inp3">
+                    <p class="labelp">ID</p>
+                </label></div>
+            <button class="button4">SEND</button>
+            <a href="#">I forgot my registration information </a>
+            <button onclick="activesignin()" class="BTNN2">Creat new one</button>
+        </div>
+
+
+    </div>
+    <div class="CNTmessag">
+        <div class="cnttextmsg">
+            <button onclick="downcntmesg()" class="cntbntbackfmsg"><img src="images/closebtn.png" width="20"
+                    alt=""></button>
+            <div id="Div1msg">
+                <h1>𝓒𝓱𝓪𝓽</h1>
+                <input type="search" placeholder="Search for chat">
+            </div>
+            <div id="DIv2msg">
+                <li><img onclick=" actchatpage()" class="img1" src="images/Patrick Bateman.jpeg" alt=""><a
+                        onclick=" actchatpage()" href="#">Patrek Bateman</a>
+                    <p>And this is the last message</p><img src="images/telephone.png" class="img3" alt=""><img
+                        src="images/lecteur-video (1).png" class="img3" alt=""><img class="img2" src="images/menu.png"
+                        alt="">
+                </li>
+                <li><img class="img1" src="images/Patrick Bateman.jpeg" alt=""><a href="#">I am the Friend's name</a>
+                    <p>And this is the last message</p><img src="images/telephone.png" class="img3" alt=""><img
+                        src="images/lecteur-video (1).png" class="img3" alt=""><img class="img2" src="images/menu.png"
+                        alt="">
+                </li>
+                <li><img class="img1" src="images/Patrick Bateman.jpeg" alt=""><a href="#">I am the Friend's name</a>
+                    <p>And this is the last message</p><img src="images/telephone.png" class="img3" alt=""><img
+                        src="images/lecteur-video (1).png" class="img3" alt=""><img class="img2" src="images/menu.png"
+                        alt="">
+                </li>
+                <li><img class="img1" src="images/Patrick Bateman.jpeg" alt=""><a href="#">I am the Friend's name</a>
+                    <p>And this is the last message</p><img src="images/telephone.png" class="img3" alt=""><img
+                        src="images/lecteur-video (1).png" class="img3" alt=""><img class="img2" src="images/menu.png"
+                        alt="">
+                </li>
+                <li><img class="img1" src="images/Patrick Bateman.jpeg" alt=""><a href="#">I am the Friend's name</a>
+                    <p>And this is the last message</p><img src="images/telephone.png" class="img3" alt=""><img
+                        src="images/lecteur-video (1).png" class="img3" alt=""><img class="img2" src="images/menu.png"
+                        alt="">
+                </li>
+                <li><img class="img1" src="images/Patrick Bateman.jpeg" alt=""><a href="#">I am the Friend's name</a>
+                    <p>And this is the last message</p><img src="images/telephone.png" class="img3" alt=""><img
+                        src="images/lecteur-video (1).png" class="img3" alt=""><img class="img2" src="images/menu.png"
+                        alt="">
+                </li>
+                <li><img class="img1" src="images/Patrick Bateman.jpeg" alt=""><a href="#">I am the Friend's name</a>
+                    <p>And this is the last message</p><img src="images/telephone.png" class="img3" alt=""><img
+                        src="images/lecteur-video (1).png" class="img3" alt=""><img class="img2" src="images/menu.png"
+                        alt="">
+                </li>
+                <li><img class="img1" src="images/Patrick Bateman.jpeg" alt=""><a href="#">I am the Friend's name</a>
+                    <p>And this is the last message</p><img src="images/telephone.png" class="img3" alt=""><img
+                        src="images/lecteur-video (1).png" class="img3" alt=""><img class="img2" src="images/menu.png"
+                        alt="">
+                </li>
+                <li><img class="img1" src="images/Patrick Bateman.jpeg" alt=""><a href="#">I am the Friend's name</a>
+                    <p>And this is the last message</p><img src="images/telephone.png" class="img3" alt=""><img
+                        src="images/lecteur-video (1).png" class="img3" alt=""><img class="img2" src="images/menu.png"
+                        alt="">
+                </li>
+                <li><img class="img1" src="images/Patrick Bateman.jpeg" alt=""><a href="#">I am the Friend's name</a>
+                    <p>And this is the last message</p><img src="images/telephone.png" class="img3" alt=""><img
+                        src="images/lecteur-video (1).png" class="img3" alt=""><img class="img2" src="images/menu.png"
+                        alt="">
+                </li>
+                <li><img class="img1" src="images/Patrick Bateman.jpeg" alt=""><a href="#">I am the Friend's name</a>
+                    <p>And this is the last message</p><img src="images/telephone.png" class="img3" alt=""><img
+                        src="images/lecteur-video (1).png" class="img3" alt=""><img class="img2" src="images/menu.png"
+                        alt="">
+                </li>
+                <li><img class="img1" src="images/Patrick Bateman.jpeg" alt=""><a href="#">I am the Friend's name</a>
+                    <p>And this is the last message</p><img src="images/telephone.png" class="img3" alt=""><img
+                        src="images/lecteur-video (1).png" class="img3" alt=""><img class="img2" src="images/menu.png"
+                        alt="">
+                </li>
+                <li><img class="img1" src="images/Patrick Bateman.jpeg" alt=""><a href="#">I am the Friend's name</a>
+                    <p>And this is the last message</p><img src="images/telephone.png" class="img3" alt=""><img
+                        src="images/lecteur-video (1).png" class="img3" alt=""><img class="img2" src="images/menu.png"
+                        alt="">
+                </li>
+                <li><img class="img1" src="images/Patrick Bateman.jpeg" alt=""><a href="#">I am the Friend's name</a>
+                    <p>And this is the last message</p><img src="images/telephone.png" class="img3" alt=""><img
+                        src="images/lecteur-video (1).png" class="img3" alt=""><img class="img2" src="images/menu.png"
+                        alt="">
+                </li>
+                <li><img class="img1" src="images/Patrick Bateman.jpeg" alt=""><a href="#">I am the Friend's name</a>
+                    <p>And this is the last message</p><img src="images/telephone.png" class="img3" alt=""><img
+                        src="images/lecteur-video (1).png" class="img3" alt=""><img class="img2" src="images/menu.png"
+                        alt="">
+                </li>
+                <li><img class="img1" src="images/Patrick Bateman.jpeg" alt=""><a href="#">I am the Friend's name</a>
+                    <p>And this is the last message</p><img src="images/telephone.png" class="img3" alt=""><img
+                        src="images/lecteur-video (1).png" class="img3" alt=""><img class="img2" src="images/menu.png"
+                        alt="">
+                </li>
+                <li><img class="img1" src="images/Patrick Bateman.jpeg" alt=""><a href="#">I am the Friend's name</a>
+                    <p>And this is the last message</p><img src="images/telephone.png" class="img3" alt=""><img
+                        src="images/lecteur-video (1).png" class="img3" alt=""><img class="img2" src="images/menu.png"
+                        alt="">
+                </li>
+                <li><img class="img1" src="images/Patrick Bateman.jpeg" alt=""><a href="#">I am the Friend's name</a>
+                    <p>And this is the last message</p><img src="images/telephone.png" class="img3" alt=""><img
+                        src="images/lecteur-video (1).png" class="img3" alt=""><img class="img2" src="images/menu.png"
+                        alt="">
+                </li>
+                <li><img class="img1" src="images/Patrick Bateman.jpeg" alt=""><a href="#">I am the Friend's name</a>
+                    <p>And this is the last message</p><img src="images/telephone.png" class="img3" alt=""><img
+                        src="images/lecteur-video (1).png" class="img3" alt=""><img class="img2" src="images/menu.png"
+                        alt="">
+                </li>
+                <li><img class="img1" src="images/Patrick Bateman.jpeg" alt=""><a href="#">I am the Friend's name</a>
+                    <p>And this is the last message</p><img src="images/telephone.png" class="img3" alt=""><img
+                        src="images/lecteur-video (1).png" class="img3" alt=""><img class="img2" src="images/menu.png"
+                        alt="">
+                </li>
+                <li><img class="img1" src="images/Patrick Bateman.jpeg" alt=""><a href="#">I am the Friend's name</a>
+                    <p>And this is the last message</p><img src="images/telephone.png" class="img3" alt=""><img
+                        src="images/lecteur-video (1).png" class="img3" alt=""><img class="img2" src="images/menu.png"
+                        alt="">
+                </li>
+                <li><img class="img1" src="images/Patrick Bateman.jpeg" alt=""><a href="#">I am the Friend's name</a>
+                    <p>And this is the last message</p><img src="images/telephone.png" class="img3" alt=""><img
+                        src="images/lecteur-video (1).png" class="img3" alt=""><img class="img2" src="images/menu.png"
+                        alt="">
+                </li>
+                <li><img class="img1" src="images/Patrick Bateman.jpeg" alt=""><a href="#">I am the Friend's name</a>
+                    <p>And this is the last message</p><img src="images/telephone.png" class="img3" alt=""><img
+                        src="images/lecteur-video (1).png" class="img3" alt=""><img class="img2" src="images/menu.png"
+                        alt="">
+                </li>
+                <li><img class="img1" src="images/Patrick Bateman.jpeg" alt=""><a href="#">I am the Friend's name</a>
+                    <p>And this is the last message</p><img src="images/telephone.png" class="img3" alt=""><img
+                        src="images/lecteur-video (1).png" class="img3" alt=""><img class="img2" src="images/menu.png"
+                        alt="">
+                </li>
+                <li><img class="img1" src="images/Patrick Bateman.jpeg" alt=""><a href="#">I am the Friend's name</a>
+                    <p>And this is the last message</p><img src="images/telephone.png" class="img3" alt=""><img
+                        src="images/lecteur-video (1).png" class="img3" alt=""><img class="img2" src="images/menu.png"
+                        alt="">
+                </li>
+                <li><img class="img1" src="images/Patrick Bateman.jpeg" alt=""><a href="#">I am the Friend's name</a>
+                    <p>And this is the last message</p><img src="images/telephone.png" class="img3" alt=""><img
+                        src="images/lecteur-video (1).png" class="img3" alt=""><img class="img2" src="images/menu.png"
+                        alt="">
+                </li>
+                <li><img class="img1" src="images/Patrick Bateman.jpeg" alt=""><a href="#">I am the Friend's name</a>
+                    <p>And this is the last message</p><img src="images/telephone.png" class="img3" alt=""><img
+                        src="images/lecteur-video (1).png" class="img3" alt=""><img class="img2" src="images/menu.png"
+                        alt="">
+                </li>
+                <li><img class="img1" src="images/Patrick Bateman.jpeg" alt=""><a href="#">I am the Friend's name</a>
+                    <p>And this is the last message</p><img src="images/telephone.png" class="img3" alt=""><img
+                        src="images/lecteur-video (1).png" class="img3" alt=""><img class="img2" src="images/menu.png"
+                        alt="">
+                </li>
+                <li><img class="img1" src="images/Patrick Bateman.jpeg" alt=""><a href="#">I am the Friend's name</a>
+                    <p>And this is the last message</p><img src="images/telephone.png" class="img3" alt=""><img
+                        src="images/lecteur-video (1).png" class="img3" alt=""><img class="img2" src="images/menu.png"
+                        alt="">
+                </li>
+                <li><img class="img1" src="images/Patrick Bateman.jpeg" alt=""><a href="#">I am the Friend's name</a>
+                    <p>And this is the last message</p><img src="images/telephone.png" class="img3" alt=""><img
+                        src="images/lecteur-video (1).png" class="img3" alt=""><img class="img2" src="images/menu.png"
+                        alt="">
+                </li>
+            </div>
+        </div>
+    </div>
+    <div class="CNTnotification">
+        <h1>𝓝𝓸𝓽𝓲𝓯𝓲𝓬𝓪𝓽𝓲𝓸𝓷</h1>
+        <button onclick="aciveCNTnotification()" class="bnT1"><img src="images/fermer-la-croix.png" alt=""></button>
+        <div class="dv">
+            <li><img class="imag1" src="images/tom img.jpeg" alt="">
+                <h6>11.32 AM</h6>
+                <p>Tom send you friend requist !</p><img src="images/close2.png" class="imag2" alt="">
+            </li>
+            <li><img class="imag1" src="images/tom img.jpeg" alt="">
+                <h6>11.32 AM</h6>
+                <p>Tom send you friend requist !</p><img src="images/close2.png" class="imag2" alt="">
+            </li>
+            <li><img class="imag1" src="images/tom img.jpeg" alt="">
+                <h6>11.32 AM</h6>
+                <p>Tom send you friend requist !</p><img src="images/close2.png" class="imag2" alt="">
+            </li>
+            <li><img class="imag1" src="images/tom img.jpeg" alt="">
+                <h6>11.32 AM</h6>
+                <p>Tom send you friend requist !</p><img src="images/close2.png" class="imag2" alt="">
+            </li>
+            <li><img class="imag1" src="images/tom img.jpeg" alt="">
+                <h6>11.32 AM</h6>
+                <p>Tom send you friend requist !</p><img src="images/close2.png" class="imag2" alt="">
+            </li>
+            <li><img class="imag1" src="images/tom img.jpeg" alt="">
+                <h6>11.32 AM</h6>
+                <p>Tom send you friend requist !</p><img src="images/close2.png" class="imag2" alt="">
+            </li>
+            <li><img class="imag1" src="images/tom img.jpeg" alt="">
+                <h6>11.32 AM</h6>
+                <p>Tom send you friend requist !</p><img src="images/close2.png" class="imag2" alt="">
+            </li>
+            <li><img class="imag1" src="images/tom img.jpeg" alt="">
+                <h6>11.32 AM</h6>
+                <p>Tom send you friend requist !</p><img src="images/close2.png" class="imag2" alt="">
+            </li>
+            <li><img class="imag1" src="images/tom img.jpeg" alt="">
+                <h6>11.32 AM</h6>
+                <p>Tom send you friend requist !</p><img src="images/close2.png" class="imag2" alt="">
+            </li>
+            <li><img class="imag1" src="images/tom img.jpeg" alt="">
+                <h6>11.32 AM</h6>
+                <p>Tom send you friend requist !</p><img src="images/close2.png" class="imag2" alt="">
+            </li>
+            <li><img class="imag1" src="images/tom img.jpeg" alt="">
+                <h6>11.32 AM</h6>
+                <p>Tom send you friend requist !</p><img src="images/close2.png" class="imag2" alt="">
+            </li>
+            <li><img class="imag1" src="images/tom img.jpeg" alt="">
+                <h6>11.32 AM</h6>
+                <p>Tom send you friend requist !</p><img src="images/close2.png" class="imag2" alt="">
+            </li>
+            <li><img class="imag1" src="images/tom img.jpeg" alt="">
+                <h6>11.32 AM</h6>
+                <p>Tom send you friend requist !</p><img src="images/close2.png" class="imag2" alt="">
+            </li>
+            <li><img class="imag1" src="images/tom img.jpeg" alt="">
+                <h6>11.32 AM</h6>
+                <p>Tom send you friend requist !</p><img src="images/close2.png" class="imag2" alt="">
+            </li>
+            <li><img class="imag1" src="images/tom img.jpeg" alt="">
+                <h6>11.32 AM</h6>
+                <p>Tom send you friend requist !</p><img src="images/close2.png" class="imag2" alt="">
+            </li>
+            <li><img class="imag1" src="images/tom img.jpeg" alt="">
+                <h6>11.32 AM</h6>
+                <p>Tom send you friend requist !</p><img src="images/close2.png" class="imag2" alt="">
+            </li>
+            <li><img class="imag1" src="images/tom img.jpeg" alt="">
+                <h6>11.32 AM</h6>
+                <p>Tom send you friend requist !</p><img src="images/close2.png" class="imag2" alt="">
+            </li>
+            <li><img class="imag1" src="images/tom img.jpeg" alt="">
+                <h6>11.32 AM</h6>
+                <p>Tom send you friend requist !</p><img src="images/close2.png" class="imag2" alt="">
+            </li>
+            <li><img class="imag1" src="images/tom img.jpeg" alt="">
+                <h6>11.32 AM</h6>
+                <p>Tom send you friend requist !</p><img src="images/close2.png" class="imag2" alt="">
+            </li>
+            <li><img class="imag1" src="images/tom img.jpeg" alt="">
+                <h6>11.32 AM</h6>
+                <p>Tom send you friend requist !</p><img src="images/close2.png" class="imag2" alt="">
+            </li>
+
+        </div>
+    </div>
+    <div class="searchforfriend">
+        <button onclick="downscan()" class="butn1"><img src="images/close2.png" width="10" alt="">
+            <p class="jp">Close</p>
+        </button>
+        <label for="">
+            <input class="demotext" type="text" id="scaninput1" value="" min="0" maxlength="14" placeholder=" ">
+            <p class="psearch">Enter your friend's ID :</p>
+        </label>
+        <label for="">
+            <input class="demotext" value="" id="scaninput2" type="text" placeholder=" ">
+            <p class="psearch">OR___ Enter your friend's Name : </p>
+        </label>
+        <label for="">
+            <input class="demotext" value="" id="scaninput3" type="text" placeholder=" ">
+            <p class="psearch">OR__ Enter your friend's Email : </p>
+        </label>
+        <button onclick="cliktbn()" class="butn2">Scan</button>
+    </div>
+    <div class="signin">
+        <div>
+            <button onclick="activesignin()" class="closebtnn"><img src="images/close2.png" alt="">
+                <p class="pclose">Close</p>
+            </button>
+            <h1>MSTPH</h1>
+            <label onclick="upfirstname()" for="">
+                <input type="text" id="input1" value="" placeholder=" ">
+                <p class="p1 pp">First name</p>
+                <h6 class="alert1 cl1"><img src="images/alertt.png" alt="">You must complete this field</h6>
+            </label>
+            <label onclick="upfirstname2()" for="">
+                <input type="text" id="input2" placeholder=" ">
+                <p class="p2 pp">Last name</p>
+                <h6 class="alert1 cl2"><img src="images/alertt.png" alt="">You must complete this field</h6>
+            </label>
+            <label onclick="upfirstname3()" for="">
+                <input type="text" id="input3" placeholder=" ">
+                <p class="p3 pp">Name assigned to work</p>
+                <h6 class="alert1 cl3"><img src="images/alertt.png" alt="">You must complete this field</h6>
+            </label>
+            <label onclick="upfirstname4()" for="">
+                <input type="text" id="input4" placeholder=" ">
+                <p class="p4 pp" class="p1">Email</p>
+                <h6 class="alert1 cl4"><img src="images/alertt.png" alt="">You must complete this field</h6>
+            </label>
+            <label onclick="upfirstname5()" for="">
+                <input type="text" id="input5" placeholder=" ">
+                <p class="p5 pp">Phone </p>
+                <h6 class="alert1 cl5"><img src="images/alertt.png" alt="">You must complete this field</h6>
+            </label>
+            <label onclick="upfirstname6()" for="">
+                <input type="text" id="input6" placeholder=" ">
+                <p class="p6 pp">Age</p>
+                <h6 class="alert1 cl6"><img src="images/alertt.png" alt="">You must complete this field</h6>
+            </label>
+            <label id="Gender" for="">
+                <h5>Gender</h5>
+                <select name="" id="">
+                    <option value=""></option>
+                    <option value="">Male <img src="images/" alt=""></option>
+                    <option value="">Fiminine <img src="images/" alt=""></option>
+                </select>
+            </label>
+            <label onclick="upfirstname7()" for="">
+                <input type="text" id="input7" placeholder=" ">
+                <h6 class="alert1 cl7"><img src="images/alertt.png" alt="">You must complete this field</h6>
+                <p class="p7 pp">Contry</p>
+            </label>
+            <button id="submit" onclick="onkzxzx()" class="buttonsubmit">Submit</button>
+        </div>
+    </div>
+    <div class="confogout">
+        <div>
+            <img src="images/alertt.png" alt="">
+            <h1>Are you sure you want to log out? </h1>
+            <li><button class="btntnt1">Yes</button><button onclick="downalerttc()" class="btntnt2">Cancel</button></li>
+        </div>
+    </div>
+    <div class="loadpage">
+        <div id="demo09">
+            <div id="demo091"></div>
+            <div id="demo092"></div>
+            <div id="demo093"></div>
+        </div>
+        <h1>Scaning....</h1>
+        <div class="loader">
+            <span></span>
+        </div>
+    </div>
+    <div class="nores">
+        <div>
+            <img src="images/no result.png" alt="">
+            <h2>We did not find anyone with the same data you entered.</h2>
+            <h4> Please verify the validity of the data</h4>
+            <li><button onclick="tryag()" class="lsbtn1">try again</button><button onclick="cnals()"
+                    class="lsbtn2">Cansel</button></li>
+        </div>
+    </div>
+    <div class="chatpage">
+        <div class="div122">
+            <button onclick=" actchatpage()" class="clclosebtn2"> <img src="images/close2.png" width="15"
+                    alt=""></button>
+            <div id="thehightbare">
+                <img id="iimg1" src="images/Patrick Bateman.jpeg" width="65" alt="">
+                <h3>Patrick Bateman <p>Onligne</p>
+                </h3>
+
+                <img id="iimg2" src="images/telephone.png" width="25" alt="">
+                <img id="iimg3" src="images/lecteur-video (1).png" width="25" alt="">
+                <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div id="cntchatmdg">
+                <p class="today">Today</p>
+                <li>
+                    <div class="forme">
+                        <form action=""></form>
+                        <p>11.30</p>Hello man, how are you today
+                    </div>
+                </li>
+                <li>
+                    <div class="forthem">
+                        <form action=""></form>
+                        <p>11.32</p>Hello
+                    </div>
+                </li>
+                <li>
+                    <div class="forthem">
+                        <form action=""></form>
+                        <p>11.32</p>Fin , you ?
+                    </div>
+                </li>
+                <li>
+                    <div class="forme">
+                        <form action=""></form>
+                        <p>11.35</p>I am ok ,
+                    </div>
+                </li>
+                
+
+            </div>
+            <div class="cntcontrole">
+                <img class="iimg1" src="images/microphone.png" alt="">
+                <img class="iimg1" src="images/envoyer.png" alt="">
+                <input type="text" name="" id="" placeholder="write somme thing">
+                <img class="iimg2" src="images/camera.png" alt="">
+                <img class="iimg3" src="images/document.png" alt="">
+                <img class="iimg4" src="images/link.png" alt="">
+                <img class="iimg4" src="images/vs code icon.png" alt="">
+                <img class="iimg4" src="images/emoji.png" alt="">
+            </div>
+        </div>
+
+    </div>
+    <div id="salepage">
+        <button onclick="activesalepage()" class="closebnT"><img src="images/close2.png" width="15" alt="">
+            <p class="closebnTp">Close</p>
+        </button>
+        <input type="file" name="" id="file">
+        <div class="hiv1">
+            <li>
+                <p>Product Type : </p><select name="" id="sselect">
+                    <option value=""></option>
+                    <option value="Video games">Video games</option>
+                    <option value="Digital Music">Digital Music</option>
+                    <option value="Electronics, computers, and accessories ">Electronics, computers, and accessories
+                    </option>
+                    <option value="Office products">Office products</option>
+                    <option value="Garden and ouoptionoor items ">Garden and ouoptionoor items </option>
+                    <option value="Kitchen and dining items ">Kitchen and dining items </option>
+                    <option value="Health and household items ">Health and household items </option>
+                    <option value="Patio, lawn, and garden">Patio, lawn, and garden</option>
+                    <option value="Sports, ouoptionoor, and fitness supplies">Sports, ouoptionoor, and fitness supplies
+                    </option>
+                    <option value="Books ">Books </option>
+                    <option value="Clothing, shoes, and jewelry">Clothing, shoes, and jewelry</option>
+                    <option value="Home and kitchen items ">Home and kitchen items </option>
+                    <option value="Pet supplies ">Pet supplies </option>
+                    <option value="Beauty and personal care">Beauty and personal care </option>
+                    <option value="Toys and games ">Toys and games </option>
+                    <option value="Tools and home improvement items">Tools and home improvement items</option>
+                    <option value="Collectibles and fine arts ">Collectibles and fine arts </option>
+                    <option value="Grocery and gourmet food">Grocery and gourmet food </option>
+                    <option value="Major appliances">Major appliances</option>
+                    <option value="Cell phone accessories">Cell phone accessories </option>
+                    <option value="Musical instruments">Musical instruments</option>
+                    <option value="Industrial and scientific items">Industrial and scientific items</option>
+                    <option value="Kindle store purchases ">Kindle store purchases </option>
+                    <option value="Other">Other</option>
+                </select>
+                <img src="images/select.png" class="select" alt="">
+            </li>
+            <li>
+                <div class="chosseimg" onclick="openfile()">
+                    <img src="images/ajouter-une-image.png" id="imgj" alt="">
+                    <p class="pimg">Add images to description</p>
+                </div>
+            </li>
+            <li>
+                <p>Local :</p>
+                <input type="text" class="localtext" name="" id="">
+                <img src="images/local.png" class="local" alt="">
+            </li>
+            <li id="oduct">
+                <p>Price's product :</p>
+                <input type="number" class="priceinput">
+                <select name="" id="currenj">
+                    <option value=""></option>
+                    <option value="">USD</option>
+                    <option value="">EURO</option>
+                    <option value="">JPY</option>
+                    <option value="MD">MD</option>
+                </select>
+            </li>
+            <li>
+                <p>Product shape :</p>
+                <select name="" id="shape">
+                    <option value=""> Chose shape </option>
+                    <option value="">The product is new</option>
+                    <option value="">Used, in good condition</option>
+                    <option value="">Used, can be used again</option>
+                    <option value="">Leave the status blank</option>
+                </select>
+                <img src="images/select.png" class=" svhahht" alt="">
+            </li>
+            <div class="postin">
+                <p>Posted in :</p>
+                <label onclick="activecntsosialmedia()" for="">Social media<input type="checkbox"></label>
+                <label onclick="activecntcity()" for="">Outside city<input type="checkbox"></label>
+                <label onclick="activecntcontry()" for="">Out of country<input type="checkbox"></label>
+                <div class="cntsosialmedia">
+                    <div class="asr">
+                        <img onclick="activeimg()" class="umg1" src="images/facebook.png" alt="">
+                        <h6 class="h6fb all">Facebook</h6>
+                        <img class="imgv ifb" src="images/verifier.png" width="10" alt="">
+                    </div>
+                    <div class="asr">
+                        <img onclick="activeimg2()" class="umg2" src="images/instagram.png" alt="">
+                        <h6 class="h6insta all">Instagrem</h6>
+                        <img class="imgv iinsta" src="images/verifier.png" width="10" alt="">
+                    </div>
+                    <div class="asr">
+                        <img onclick="activeimg3()" class="umg3" src="images/youtube.png" alt="">
+                        <h6 class="h6yt all">Youtube</h6>
+                        <img class="imgv iyt" src="images/verifier.png" width="10" alt="">
+                    </div>
+                    <div class="asr">
+                        <img onclick="activeimg4()" class="umg4" src="images/icons8-twitter-50.png" alt="">
+                        <h6 class="h6tw all">Twittre</h6>
+                        <img class="imgv itw" src="images/verifier.png" width="10" alt="">
+                    </div>
+
+
+                </div>
+                <div class="cntcity">
+                    <h3>Chose city(s)</h3>
+                    <select onclick="setincity()" name="" id="selectcitys">
+                        <option value=""></option>
+                        <option value="Casablanca">Casablanca</option>
+                        <option value="El Kelaa des Srarhna">El Kelaa des Srarhna</option>
+                        <option value="Fès">Fès</option>
+                        <option value="Fès">Tangier</option>
+                        <option value="Marrakech">Marrakech</option>
+                        <option value="Sale">Sale</option>
+                        <option value="Mediouna">Mediouna</option>
+                        <option value="Rabat">Rabat</option>
+                        <option value="Meknès">Meknès</option>
+                        <option value="Oujda-Angad">Oujda-Angad</option>
+                        <option value="Kenitra">Kenitra</option>
+                        <option value="Agadir">Agadir</option>
+                        <option value="Tétouan">Tétouan</option>
+                        <option value="Taourirt">Taourirt</option>
+                        <option value="Temara">Temara</option>
+                        <option value="Safi">Safi</option>
+                        <option value="Khénifra">Khénifra</option>
+                        <option value="Laâyoune">Laâyoune</option>
+                        <option value="Mohammedia">Mohammedia</option>
+                        <option value="Kouribga">Kouribga</option>
+                        <option value="El Jadid">El Jadid</option>
+                        <option value="Béni Mellal">Béni Mellal</option>
+                        <option value="Ait  Melloul">Ait Melloul</option>
+                        <option value="Nador">Nador</option>
+                        <option value="Taza">Taza</option>
+                        <option value="Settat">Settat</option>
+                        <option value="Barrechid">Barrechid</option>
+                        <option value="Al Khmissat">Al Khmissat</option>
+                        <option value="Ksar El Kebir">Ksar El Kebir</option>
+                        <option value="Larache">Larache</option>
+                        <option value="Guelmim">Guelmim</option>
+                        <option value="Berkane">Berkane</option>
+                        <option value="Khemis Sahel">Khemis Sahel</option>
+                        <option value="Ad Dakhla">Ad Dakhla</option>
+                        <option value="Bouskoura">Bouskoura</option>
+                        <option value="Al Fqih Ben Çalah">Al Fqih Ben Çalah</option>
+                        <option value="Oued Zem">Oued Zem</option>
+                        <option value="Sidi Slimane">Sidi Slimane</option>
+                        <option value="Errachidia">Errachidia</option>
+                        <option value="Guercif">Guercif</option>
+                        <option value="Oulad Teïm">Oulad Teïma</option>
+                        <option value="Ben Guerir">Ben Guerir</option>
+                        <option value="Sefrou">Sefrou</option>
+                        <option value="Fnidq">Fnidq</option>
+                        <option value="Sidi Qacem">Sidi Qacem</option>
+                        <option value="Moulay Abdallah">Moulay Abdallah</option>
+                        <option value="Youssoufia">Youssoufia</option>
+                        <option value="Martil">Martil</option>
+                        <option value="Aïn Harrouda">Aïn Harrouda</option>
+                        <option value="Skhirate">Skhirate</option>
+                        <option value="Ouezzane">Ouezzane</option>
+                        <option value="Sidi Yahya Zaer">Sidi Yahya Zaer</option>
+                        <option value="Al Hoceïma">Al Hoceïma</option>
+                        <option value="M’diq">M’diq</option>
+                        <option value="Midalt">Midalt</option>
+                        <option value="Drarga"> Drarga</option>
+                        <option value="Azrou">Azrou</option>
+                        <option value="Ain El Aouda">Ain El Aouda</option>
+                        <option value="Ad Darwa">Ad Darwa</option>
+                        <option value="Beni Yakhlef">Beni Yakhlef</option>
+                        <option value="Al Aaroui">Al Aaroui</option>
+                        <option value="Qasbat Tadla">Qasbat Tadla</option>
+                        <option value="Boujad">Boujad</option>
+                        <option value="Jerada">Jerada</option>
+                        <option value="Mrirt">Mrirt</option>
+                        <option value="El Aïoun">El Aïoun</option>
+                        <option value="Azemmour">Azemmour</option>
+                        <option value="Temsia">Temsia</option>
+                        <option value="Zagora">Zagora</option>
+                        <option value="Ait Ourir">Ait Ourir</option>
+                        <option value="Aziylal">Aziylal</option>
+                        <option value="Sidi Yahia El Gharb">Sidi Yahia El Gharb</option>
+                        <option value="Biougra">Biougra</option>
+                        <option value="ZaïoAguelmous">ZaïoAguelmous</option>
+                        <option value="El Hajeb">El Hajeb</option>
+                        <option value="Zeghanghane">Zeghanghane</option>
+                        <option value="Imzouren">Imzouren</option>
+                        <option value="Tit Mellil">Tit Mellil</option>
+                        <option value="Mechraa Bel Ksiri">Mechraa Bel Ksiri</option>
+                        <option value="Al ’Attawia">Al ’Attawia</option>
+                        <option value="DemnatArfoud">DemnatArfoud</option>
+                        <option value="Tameslouht">Tameslouht</option>
+                        <option value="Bou Arfa">Bou Arfa</option>
+                        <option value="Sidi Smai’il"> Sidi Smai’il</option>
+                        <option value="Souk et Tnine Jorf el Mellah">Souk et Tnine Jorf el Mellah</option>
+                        <option value="Mehdya"> Mehdya</option>
+                        <option value="Aïn Taoujdat">Aïn Taoujdat</option>
+                        <option value="Chichaoua">Chichaoua</option>
+                        <option value="Tahla">Tahla</option>
+                        <option value="Oulad Yaïch">Oulad Yaïch</option>
+                        <option value="Moulay Bousselham">Moulay Bousselham</option>
+                        <option value="Iheddadene">Iheddadene</option>
+                        <option value="Missour">Missour</option>
+                        <option value="Zawyat ech Cheïkh">Zawyat ech Cheïkh</option>
+                        <option value="Bouknadel">Bouknadel</option>
+                        <option value="Oulad Tayeb">Oulad Tayeb</option>
+                        <option value="Oulad Barhil">Oulad Barhil</option>
+                        <option value="Bir Jdid">Bir Jdid</option>
+                        <option value="Tifariti">Tifariti</option>
+                    </select>
+                    <div class="cityfinal">
+                        your city is:
+                    </div>
+                </div>
+                <div class="cntcontry">
+                    <h3>Choose contry :</h3>
+                    <select name="" id="contryini">
+                        <option>Afghanistan</option>
+                        <option>Algeria</option>
+                        <option>Andorra</option>
+                        <option>Belgium</option>
+                        <option>Belize</option>
+                        <option>Benin</option>
+                        <option>Bolivia</option>
+                        <option>Bosnia and Herzegovina</option>
+                        <option>Botswana</option>
+                        <option>Brazil</option>
+                        <option>Brunei </option>
+                        <option>Bulgaria</option>
+                        <option>Burkina Faso</option>
+                        <option>Burundi</option>
+                        <option>Côte d'Ivoire</option>
+                        <option>Cabo Verde</option>
+                        <option>Cambodia</option>
+                        <option>Cameroon</option>
+                        <option>Canada</option>
+                        <option>Central African Republic</option>
+                        <option>Chad</option>
+                        <option>Chile</option>
+                        <option>China</option>
+                        <option>Colombia</option>
+
+                        <option>Comoros</option>
+
+                        <option>Congo (Congo-Brazzaville)</option>
+
+                        <option>Costa Rica</option>
+
+                        <option>Croatia</option>
+
+                        <option>Cuba</option>
+
+                        <option>Cyprus</option>
+
+                        <option>Czechia (Czech Republic)</option>
+
+                        <option>Democratic Republic of the Congo</option>
+
+                        <option>Denmark</option>
+
+                        <option>Djibouti</option>
+                        >
+                        <option>Dominica</option>
+
+                        <option>Dominican Republic</option>
+
+                        <option>Ecuador</option>
+
+                        <option>Egypt</option>
+
+                        <option>El Salvador</option>
+
+                        <option>Equatorial Guinea</option>
+
+                        <option>Eritrea</option>
+
+                        <option>Estonia</option>
+
+                        <option>Eswatini (fmr. "Swaziland")</option>
+
+                        <option>Ethiopia</option>
+
+                        <option>Fiji</option>
+
+                        <option>Finland</option>
+
+                        <option>France</option>
+
+                        <option>Gabon</option>
+
+                        <option>Gambia</option>
+
+                        <option>Georgia</option>
+
+                        <option>Germany</option>
+
+                        <option>Ghana</option>
+
+                        <option>Greece</option>
+
+                        <option>Grenada</option>
+
+                        <option>Guatemala</option>
+
+                        <option>Guinea</option>
+
+                        <option>Guinea-Bissau</option>
+
+                        <option>Guyana</option>
+
+                        <option>Haiti</option>
+
+                        <option>Holy See</option>
+
+                        <option>Honduras</option>
+
+                        <option>Hungary</option>
+
+                        <option>Iceland</option>
+
+                        <option>India</option>
+
+                        <option>Indonesia</option>
+
+                        <option>Iran</option>
+
+                        <option>Iraq</option>
+
+                        <option>Ireland</option>
+
+                        <option>Israel</option>
+
+                        <option>Italy</option>
+
+                        <option>Jamaica</option>
+                        on>
+                        <option>Japan</option>
+
+                        <option>Jordan</option>
+
+                        <option>Kazakhstan</option>
+
+                        <option>Kenya</option>
+
+                        <option>Kiribati</option>
+
+                        <option>Kuwait</option>
+
+                        <option>Kyrgyzstan</option>
+
+
+                        <option>Latvia</option>
+
+                        <option>Lebanon</option>
+
+                        <option>Lesotho</option>
+
+                        <option>Liberia</option>
+
+                        <option>Libya</option>
+
+                        <option>Liechtenstein</option>
+
+                        <option>Lithuania</option>
+
+                        <option>Luxembourg</option>
+
+                        <option>Madagascar</option>
+
+                        <option>Malawi</option>
+
+                        <option>Malaysia</option>
+
+
+                        <option>Maldives</option>
+
+                        <option>Mali</option>
+
+
+                        <option>Marshall Islands</option>
+
+                        <option>Mauritania</option>
+
+                        <option>Mauritius</option>
+
+                        <option>Mexico</option>
+
+                        <option>Micronesia</option>
+
+                        <option>Moldova</option>
+
+                        <option>Monaco</option>
+
+                        <option>Mongolia</option>
+
+                        <option>Montenegro</option>
+
+                        <option>Morocco</option>
+
+                        <option>Mozambique</option>
+
+                        <option>Myanmar (formerly Burma)</option>
+
+                        <option>Namibia</option>
+
+                        <option>Nauru</option>
+
+                        <option>Nepal</option>
+
+                        <option>Netherlands</option>
+
+                        <option>New Zealand</option>
+
+                        <option>Nicaragua</option>
+
+                        <option>Niger</option>
+
+                        <option>Nigeria</option>
+
+                        <option>North Korea</option>
+
+                        <option>North Macedonia</option>
+
+                        <option>Oman</option>
+
+                        <option>Pakistan</option>
+
+                        <option>Palau</option>
+
+                        <option>Palestine State</option>
+
+                        <option>Panama</option>
+
+
+                        <option>Papua New Guinea</option>
+
+                        <option>Paraguay</option>
+
+                        <option>Peru</option>
+
+                        <option>Philippines</option>
+
+                        <option>Poland</option>
+
+                        <option>Portugal</option>
+
+                        <option>Qatar</option>
+
+                        <option>Romania</option>
+
+                        <option>Russia</option>
+
+                        <option>Rwanda</option>
+
+                        <option>Saint Kitts and Nevis</option>
+
+                        <option>Saint Lucia</option>
+
+                        <option>Saint Vincent and the Grenadines</option>
+
+                        <option>Samoa</option>
+
+                        <option>San Marino</option>
+
+                        <option>Sao Tome and Principe</option>
+
+                        <option>Saudi Arabia</option>
+
+                        <option>Senegal</option>
+
+                        <option>Serbia</option>
+
+                        <option>Seychelles</option>
+
+                        <option>Sierra Leone</option>
+
+                        <option>Singapore</option>
+
+                        <option>Slovakia</option>
+
+                        <option>Slovenia</option>
+
+                        <option>Solomon Islands</option>
+
+                        <option>Somalia</option>
+
+                        <option>South Africa</option>
+
+                        <option>South Korea</option>
+
+                        <option>South Sudan</option>
+
+                        <option>Spain</option>
+
+                        <option>Sri Lanka</option>
+
+                        <option>Sudan</option>
+
+                        <option>Suriname</option>
+
+                        <option>Sweden</option>
+
+                        <option>Switzerland</option>
+
+                        <option>Syria</option>
+
+                        <option>Tajikistan</option>
+
+                        <option>Tanzania</option>
+
+                        <option>Thailand</option>
+
+                        <option>Timor-Leste</option>
+
+                        <option>Togo</option>
+
+                        <option>Tonga</option>
+
+                        <option>Trinidad and Tobago</option>
+
+                        <option>Tunisia</option>
+
+                        <option>Turkey</option>
+
+                        <option>Turkmenistan</option>
+
+                        <option>Tuvalu</option>
+
+                        <option>Uganda</option>
+
+                        <option>Ukraine</option>
+
+                        <option>United Arab Emiratesof America</option>
+
+                        <option>Uruguay</option>
+
+                        <option>Uzbekistan</option>
+
+                        <option>Vanuatu</option>
+
+                        <option>Venezuela</option>
+
+                        <option>Vietnam</option>
+
+                        <option>Yemen</option>
+
+                        <option>Zambia</option>
+
+                        <option>Zimbabwe</option>
+
+                    </select>
+                    <div class="contryfinal">
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="groupps">
+                <label for="">
+                    <p>Posting in buying and selling groups</p><input type="checkbox">
+                </label>
+            </div>
+            <div class="descreption">
+                <label for="">
+                    <p>Add description text :</p>
+                    <input type="text" placeholder="type here...........">
+                </label>
+            </div>
+            <div class="information">
+                <label for="">
+                    <p>Phone </p><input type="number" placeholder="+XXXXXXXXXXX">
+                </label>
+                <label for="">
+                    <p>Email </p><input type="email" placeholder="email@gmail.com">
+                </label>
+                <label for="">
+                    <p>Links </p><input type="url" id="limks" placeholder="www.profile-sosial.com">
+                </label>
+            </div>
+            <button class="next">Next</button>
+        </div>
+    </div>
+    <div class="buypage">
+        <div class="baremenu">
+            <h1 onclick="activebuypage()">MSTP <img src="images/letter-h (1).png" alt=""></h1>
+            <input type="search" id="searchinput">
+            <div class="ediv">
+
+                <button>
+                    <p class="pk">Add purchases</p> <img class="mg" src="images/ajouter-au-panier.png" alt="">
+                </button>
+                <button>
+                    <p class="pk">Delivery</p><img class="mg" src="images/livraison.png" alt="">
+                </button>
+                <button>
+                    <p class="pk">Fast delivery</p><img class="mg" src="images/livraison-rapide.png" alt="">
+                </button>
+            </div>
+            <div class="authere">
+                <p class="autherp">another thing</p><img class="autre" src="images/autre.png" alt="">
+            </div>
+        </div>
+        <div class="containerprd">
+            <form action="">
+                <img class="parfume"
+                    src="images/Things_To_Keep_In_Mind_While_Buying_Fragrance_For_Men-removebg-preview.png" alt="">
+                <h3>Perfume </h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="parfume" src="images/img17-removebg-preview.png" alt="">
+                <h3>Perfume</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+
+            <form action="">
+                <img class="parfume" src="images/img22.jpeg" alt="">
+                <h3>Perfume</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="parfume" src="images/Img654 (1).png" alt="">
+                <h3>Perfume</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="parfume" src="images/Men_Minimalist_Fashion_Glasses-removebg-preview.png" alt="">
+                <h3>glasses</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="parfume" src="rolex/class3-removebg-preview.png" alt="">
+                <h3>glasses</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="parfume" src="rolex/class4-removebg-preview.png" alt="">
+                <h3>glasses</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="parfume" src="rolex/class5-removebg-preview.png" alt="">
+                <h3>glasses</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="parfume" src="rolex/class_1-removebg-preview.png" alt="">
+                <h3>glasses</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="parfume" src="rolex/class_2-removebg-preview.png" alt="">
+                <h3>glasses</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="parfume" src="rolex/class_6-removebg-preview.png" alt="">
+                <h3>glasses</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="parfume" src="rolex/class_7-removebg-preview.png" alt="">
+                <h3>glasses</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="hat" src="hat/img10-removebg-preview.png" alt="">
+                <h3>Hat</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="hat" src="hat/img11-removebg-preview.png" alt="">
+                <h3>Hat</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="hat" src="hat/img12-removebg-preview.png" alt="">
+                <h3>Hat</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="hat" src="hat/img13-removebg-preview.png" alt="">
+                <h3>Hat</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="hat" src="hat/img18-removebg-preview.png" alt="">
+                <h3>Hat</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="hat" src="hat/img14-removebg-preview.png" alt="">
+                <h3>Hat</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="hat" src="hat/img4-removebg-preview.png" alt="">
+                <h3>Hat</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="hat" src="hat/img5-removebg-preview.png" alt="">
+                <h3>Hat</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="hat" src="hat/img8-removebg-preview.png" alt="">
+                <h3>Hat</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="hat" src="hat/img9-removebg-preview.png" alt="">
+                <h3>Hat</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="cloth" src="images/img6-removebg-preview.png" alt="">
+                <h3>cloth</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="cloth" src="images/img15-removebg-preview.png" alt="">
+                <h3>Cloth</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="cloth" src="images/img19-removebg-preview.png" alt="">
+                <h3>Cloth</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="cloth" src="cloths/cloth1-removebg-preview (1).png" alt="">
+                <h3>cloth</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="cloth" src="cloths/cloth2-removebg-preview.png" alt="">
+                <h3>Cloth</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="cloth" src="cloths/cloth3-removebg-preview.png" alt="">
+                <h3>Cloth</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="cloth" src="cloths/cloth4-removebg-preview.png" alt="">
+                <h3>Cloth</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="cloth" src="cloths/cloth5-removebg-preview.png" alt="">
+                <h3>Cloth</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="cloth" src="cloths/cloth6-removebg-preview.png" alt="">
+                <h3>Cloth</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="cloth" src="cloths/cloth7-removebg-preview.png" alt="">
+                <h3>Cloth</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="cloth" src="cloths/cloth8-removebg-preview.png" alt="">
+                <h3>Cloth</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="cloth" src="cloths/cloth9-removebg-preview.png" alt="">
+                <h3>Cloth</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="cloth" src="cloths/cloth10-removebg-preview.png" alt="">
+                <h3>Cloth</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="cloth" src="cloths/AlanBalen__-_Splicing_Contrast_Jacket-removebg-preview.png" alt="">
+                <h3>Cloth</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="cloth clothfinal" src="cloths/Men_Winter_Down_Jacket-removebg-preview.png" alt="">
+                <h3>Cloth</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="shoe" src="ashoe/im3-removebg-preview.png" alt="">
+                <h3>Shoes</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="shoe" src="ashoe/img16-removebg-preview.png" alt="">
+                <h3>Shoes</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="shoe" src="ashoe/img20-removebg-preview.png" alt="">
+                <h3>Shoes</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="shoe" src="ashoe/img7-removebg-preview.png" alt="">
+                <h3>Shoes</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="shoe" src="ashoe/shoe1-removebg-preview.png" alt="">
+                <h3>Shoes</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="shoe" src="ashoe/shoe11-removebg-preview.png" alt="">
+                <h3>Shoes</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="shoe" src="ashoe/shoe12-removebg-preview.png" alt="">
+                <h3>Shoes</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="shoe" src="ashoe/shoe14-removebg-preview.png" alt="">
+                <h3>Shoes</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="shoe" src="ashoe/shoe15-removebg-preview.png" alt="">
+                <h3>Shoes</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="shoe" src="ashoe/shoe16-removebg-preview.png" alt="">
+                <h3>Shoes</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="shoe" src="ashoe/shoe17-removebg-preview.png" alt="">
+                <h3>Shoes</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="shoe" src="ashoe/shoe18-removebg-preview.png" alt="">
+                <h3>Shoes</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="shoe" src="ashoe/shoe19-removebg-preview.png" alt="">
+                <h3>Shoes</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="shoe" src="ashoe/shoe2-removebg-preview.png" alt="">
+                <h3>Shoes</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="shoe" src="ashoe/shoe20-removebg-preview.png" alt="">
+                <h3>Shoes</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="shoe" src="ashoe/shoe3-removebg-preview.png" alt="">
+                <h3>Shoes</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="shoe" src="ashoe/shoe4-removebg-preview.png" alt="">
+                <h3>Shoes</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="shoe" src="ashoe/shoe5-removebg-preview.png" alt="">
+                <h3>Shoes</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="shoe" src="ashoe/shoe7-removebg-preview.png" alt="">
+                <h3>Shoes</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="shoe" src="ashoe/shoe6-removebg-preview.png" alt="">
+                <h3>Shoes</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="shoe" src="ashoe/shoe8-removebg-preview.png" alt="">
+                <h3>Shoes</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+            <form action="">
+                <img class="shoe" src="ashoe/shoe9-removebg-preview.png" alt="">
+                <h3>Shoes</h3>
+                <a href="#">
+                    <p>Request Item</p>
+                    <h6>See more</h6>
+                </a>
+            </form>
+
+        </div>
+    </div>
+    <div class="fatherxntmedia">
+        <div class="xntmedia">
+            <form action=""><img src="images/instagram.png" alt="">
+                <p>Inst Profile</p>
+            </form>
+            <form action=""><img src="images/facebook.png" alt="">
+                <p>FB profile</p>
+            </form>
+            <form action=""><img src="images/youtube.png" alt="">
+                <p>YT channel</p>
+            </form>
+            <form action=""><img src="images/twitter (1).png" class="twimg" alt="">
+                <p>TW profile</p>
+            </form>
+            <form action=""><img src="images/whatsapp.png" alt="">
+                <p>WS Contact</p>
+            </form>
+            <form action=""><img src="images/linkedin2.png" alt="">
+                <p>LKD profile</p>
+            </form>
+            <form action=""><img src="images/tiktok.png" alt="">
+                <P>TK channel</P>
+            </form>
+            <form action=""><img src="images/icons8-gmail-nouveau-48 (1).png" alt="">
+                <p>GM contact</p>
+            </form>
+            <form action=""><img src="images/icons8-microsoft-48.png" alt="">
+                <P>MS Account</P>
+            </form>
+            <form action=""><img src="images/discorde.png" alt="">
+                <p>DC account</p>
+            </form>
+        </div>
+        <button class="suprieur">
+            <img src="images/flech.png" class="suprieurimg" alt="">
+        </button>
+    </div>
+    <div class="editdivflmn">
+        <h4><span class="m">M</span><span class="s">S</span><span class="t">T</span><span class="p">P</span><span
+                class="h">H</span></h4>
+        <h3 class="editwh">Edit full Name</h3>
+        <label for="">
+            <input type="text" placeholder=" " value="" class="inptuflnm1">
+            <p class="pwrit">First name</p>
+            <h5 class="h5offirstnm"><img src="images/alertt.png" width="10" alt="">Name Can't contain number </h5>
+        </label>
+        <label for="">
+            <input type="text" placeholder=" " value="" class="inptuflnm2">
+            <p class="pwrit">Last name</p>
+            <h5 class="h5oflastnm"><img src="images/alertt.png" width="10" alt="">Name can't contain number</h5>
+        </label>
+        <button class="Ending" onclick="endinflnm()"> Ending</button>
+        <a href="#" class="closeedit2 btn100">Close</a>
+    </div>
+    <div class="editdivage">
+        <h4><span class="m">M</span><span class="s">S</span><span class="t">T</span><span class="p">P</span><span
+                class="h">H</span></h4>
+        <h3 class="editwh"> Edit birth's date</h3>
+        <label for="">
+            <input type="date" class="inptage">
+            <p class="pwrit">Edit</p>
+            <h5 id="h5ofbd"><img src="images/alertt.png" width="10" alt="">Edit birth's date is incorrect</h5>
+        </label>
+        <button class="Ending" onclick="endingage()"> Ending</button>
+        <a href="#" class="closeedit2 btn200">Close</a>
+    </div>
+    <div class="editdivads">
+        <h4><span class="m">M</span><span class="s">S</span><span class="t">T</span><span class="p">P</span><span
+                class="h">H</span></h4>
+        <h3 class="editwh">Edit address</h3>
+        <label for="">
+            <input type="text" placeholder=" " value="" class="inptads cconty">
+            <p class="pwrit">Contry :</p>
+        </label>
+        <label for="">
+            <input type="text" placeholder=" " value="" class="inptads ccity">
+            <p class="pwrit">City :</p>
+        </label>
+        <label for="">
+            <input type="text" placeholder=" " value="" class="inptads cstreet">
+            <p class="pwrit">Street :</p>
+        </label>
+        <button class="Ending" onclick="sndingadrs()"> Ending</button>
+        <a href="#" class="closeedit2 btn300">Close</a>
+    </div>
+    <div class="editdivemali">
+        <h4><span class="m">M</span><span class="s">S</span><span class="t">T</span><span class="p">P</span><span
+                class="h">H</span></h4>
+        <h3 class="editwh">Edit E-mail</h3>
+        <label for="">
+            <input type="email" placeholder=" " value="" class="inpteditdiv">
+            <p class="pwrit">Edit</p>
+            <h5 class="h55"><img src="images/alertt.png" width="10" alt=""> please enter correct info</h5>
+        </label>
+        <button class="Ending" onclick="setemail()"> Ending</button>
+        <a href="#" class="closeedit2 btn400">Close</a>
+    </div>
+    <div class="editdivphone">
+        <h4><span class="m">M</span><span class="s">S</span><span class="t">T</span><span class="p">P</span><span
+                class="h">H</span></h4>
+        <h3 class="editwh">Edit phone Number</h3>
+        <label for="">
+            <input type="number" placeholder=" " value="" class="inptphone">
+            <p class="pwrit">Edit</p>
+            <h5 class="h5ofnmb"><img src="images/alertt.png" width="10" alt="">Incorrect </h5>
+        </label>
+        <button class="Ending endinphone" onclick=""> Ending</button>
+        <a href="#" class="closeedit2 btn500">Close</a>
+    </div>
+    <div class="editdivid">
+        <h4><span class="m">M</span><span class="s">S</span><span class="t">T</span><span class="p">P</span><span
+                class="h">H</span></h4>
+        <h3 class="editwh">Edit ID :</h3>
+        <label for="">
+            <input type="number" min="0" minlength="9" placeholder=" " value="" class="inptid">
+            <p class="pwrit">Edit</p>
+            <h5 class="h5ofID"><img src="images/alertt.png" width="10" alt="">Incorrect</h5>
+        </label>
+        <button class="Ending eningidd" onclick=""> Ending</button>
+        <a href="#" class="closeedit2 btn600">Close</a>
+    </div>
+    <div class="misin"></div>
+    <div id="mohtawa">
+        <!--  -----------BMW--------------- -->
+        <div class="baremenu">
+            <div class="picprofilecnt">
+                <img src="bmw cars/logo.jpeg" alt="">
+            </div>
+            <div class="infouser">
+                <h3>BMW <img src="photos/qualite2.png" alt=""></h3>
+                <p><img src="photos/utilisateur3.png" width="10" alt="">Mon 01-01-2024</p>
+                <img src="photos/email.png" class="emailbm" alt="">
+                <img src="photos/ellipse.png" alt="" class="elipse">
+            </div>
+        </div>
+        <div class="contentOfthis">
+            <div class="descriptionimg">
+                <button class="verleft">
+                    <img src="images/se-deplacer (1).png" alt="">
+                </button>
+                <div class="containerimgasa">
+                    <img src="bmw cars/acsuliel bm.jpeg" class="imagen2" alt="">
+                    <img src="bmw cars/car6.jpeg" class="imagen2" alt="">
+                    <img src="bmw cars/'BMW E30 M3 ' Poster, picture, metal print, paint by MaluBobo _ Displate.jpeg"
+                        class="imagen2" alt="">
+                    <img src="bmw cars/car5.jpeg" class="imagen2" alt="">
+                    <img src="bmw cars/car1.jpeg" class="imagen2" alt="">
+                    <img src="bmw cars/car2.jpeg" class="imagen2" alt="">
+                    <img src="bmw cars/car7.jpeg" class="imagen2" alt="">
+                    <img src="bmw cars/car4.jpeg" class="imagen2" alt="">
+                    <img src="bmw cars/BMW E30 img1.jpeg" class="imagen2" alt="">
+                    <img src="bmw cars/BMW E30.jpeg" class="imagen2" alt="">
+                    <img src="bmw cars/BMW M1000RR.jpeg" class="imagen2" alt="">
+                </div>
+                <button class="verright">
+                    <img src="images/se-deplacer.png" alt="">
+                </button>
+            </div>
+            <div class="texplusitera">
+                <div class="description">
+                    <h1>BWM E30</h1>
+                    <p>it's </p>
+                </div>
+                <div class="Interaction">
+                    <img src="photos/coeur.png" alt="" class="lik">
+                    <img src="photos/commentaires2.png" class="com" alt="">
+                    <img src="photos/lien2.png" class="lien2" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="fasil"></div>
+        <!-- -------------------Marcedes ------------------------------------------------------------- -->
+        <div class="baremenu">
+            <div class="picprofilecnt">
+                <img src="merceds cars/Mercedes-Benz Logo d.jpeg" alt="">
+            </div>
+            <div class="infouser">
+                <h3>MERCEDES <img src="photos/qualite2.png" alt=""></h3>
+                <p><img src="photos/utilisateur3.png" width="10" alt="">Mon 01-01-2024</p>
+                <img src="photos/email.png" class="emailbm" alt="">
+                <img src="photos/ellipse.png" alt="" class="elipse">
+            </div>
+        </div>
+        <div class="contentOfthis">
+            <div class="descriptionimg">
+                <button class="verleft">
+                    <img src="images/se-deplacer (1).png" alt="">
+                </button>
+                <div class="containerimgasa">
+                    <img src="merceds cars/car num1.jpeg" class="imagen2" alt="">
+                    <img src="merceds cars/car7.jpeg" class="imagen2" alt="">
+                    <img src="merceds cars/G-Class.jpeg" class="imagen2" alt="">
+                    <img src="merceds cars/car6.jpeg" class="imagen2" alt="">
+                    <img src="merceds cars/car3.jpeg" class="imagen2" alt="">
+                    <img src="merceds cars/car5.jpeg" class="imagen2" alt="">
+                    <img src="merceds cars/car4.jpeg" class="imagen2" alt="">
+                    <img src="merceds cars/car1.jpeg" class="imagen2" alt="">
+                    <img src="merceds cars/190E Evo 2.jpeg" class="imagen2" alt="">
+                    <img src="merceds cars/Mercedes G-wagon.jpeg" class="imagen2" alt="">
+                    <img src="merceds cars/AMG on Instagram_ “Share your thoughts about the….jpeg" class="imagen2"
+                        alt="">
+                </div>
+                <button class="verright">
+                    <img src="images/se-deplacer.png" alt="">
+                </button>
+            </div>
+            <div class="texplusitera">
+                <div class="description">
+                    <h1>mercedes car </h1>
+                    <p>it's</p>
+                </div>
+                <div class="Interaction">
+                    <img src="photos/coeur.png" alt="" class="lik">
+                    <img src="photos/commentaires2.png" class="com" alt="">
+                    <img src="photos/lien2.png" class="lien2" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="fasil"></div>
+        <!-- -------------------------T  S E L A  --------------------------------------------------------------- -->
+        <div class="baremenu">
+            <div class="picprofilecnt">
+                <img src="tesla cars/testa logo flag tesla.jpeg" alt="">
+            </div>
+            <div class="infouser">
+                <h3>TESLA <img src="photos/qualite2.png" alt=""></h3>
+                <p><img src="photos/utilisateur3.png" width="10" alt="">Mon 01-01-2024</p>
+                <img src="photos/email.png" class="emailbm" alt="">
+                <img src="photos/ellipse.png" alt="" class="elipse">
+            </div>
+        </div>
+        <div class="contentOfthis">
+            <div class="descriptionimg">
+                <button class="verleft">
+                    <img src="images/se-deplacer (1).png" alt="">
+                </button>
+                <div class="containerimgasa">
+                    <img src="tesla cars/car1.jpeg" class="imagen2" alt="">
+                    <img src="tesla cars/car2.jpeg" class="imagen2" alt="">
+                    <img src="tesla cars/cra3.jpeg" class="imagen2" alt="">
+                    <img src="tesla cars/car4.jpeg" class="imagen2" alt="">
+                    <img src="tesla cars/car5.jpeg" class="imagen2" alt="">
+                    <img src="tesla cars/car7.jpeg" class="imagen2" alt="">
+                    <img src="tesla cars/car8.jpeg" class="imagen2" alt="">
+                    <img src="tesla cars/CYBERTRUCK 2.jpeg" class="imagen2" alt="">
+                    <img src="tesla cars/Cybertruck.jpeg" class="imagen2" alt="">
+                    <img src="tesla cars/tesla car 1.jpeg" class="imagen2" alt="">
+                    <img src="tesla cars/car9.jpeg" class="imagen2" alt="">
+                </div>
+                <button class="verright">
+                    <img src="images/se-deplacer.png" alt="">
+                </button>
+            </div>
+            <div class="texplusitera">
+                <div class="description">
+                    <h1>resla cars</h1>
+                    <p>it's free Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid vero nemo sunt
+                        possimus est ipsum animi eaque eius, a ad quisquam fugiat perspiciatis, quas asperiores fugit?
+                        Earum esse ipsam rem.</p>
+                </div>
+                <div class="Interaction">
+                    <img src="photos/coeur.png" alt="" class="lik">
+                    <img src="photos/commentaires2.png" class="com" alt="">
+                    <img src="photos/lien2.png" class="lien2" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="fasil"></div>
+        <!-- ------------------------------A U D I -------------------------------------------------- -->
+        <div class="baremenu">
+            <div class="picprofilecnt">
+                <img src="Audi cars/audi logo (2).jpeg" alt="">
+            </div>
+            <div class="infouser">
+                <h3>AUDI <img src="photos/qualite2.png" alt=""></h3>
+                <p><img src="photos/utilisateur3.png" width="10" alt="">Mon 01-01-2024</p>
+                <img src="photos/email.png" class="emailbm" alt="">
+                <img src="photos/ellipse.png" alt="" class="elipse">
+            </div>
+        </div>
+        <div class="contentOfthis">
+            <div class="descriptionimg">
+                <button class="verleft">
+                    <img src="images/se-deplacer (1).png" alt="">
+                </button>
+                <div class="containerimgasa">
+                    <img src="Audi cars/Accueil _ Audi_fr _ Audi France.jpeg" class="imagen2" alt="">
+                    <img src="Audi cars/car1.jpeg" alt="">
+                    <img src="Audi cars/car2.jpeg" alt="">
+                    <img src="Audi cars/car3.jpeg" alt="">
+                    <img src="Audi cars/car4.jpeg" alt="">
+                    <img src="Audi cars/car5.jpeg" alt="">
+                    <img src="Audi cars/car6.jpeg" alt="">
+                    <img src="Audi cars/car7.jpeg" alt="">
+                    <img src="Audi cars/car8.jpeg" alt="">
+                    <img src="Audi cars/car9.jpeg" alt="">
+                    <img src="Audi cars/car10.jpeg" alt="">
+                    <img src="Audi cars/car11.jpeg" alt="">
+                    <img src="Audi cars/car12.jpeg" alt="">
+                    <img src="Audi cars/cae13.jpeg" alt="">
+                    <img src="Audi cars/car14.jpeg" alt="">
+                    <img src="Audi cars/car15.jpeg" alt="">
+                    <img src="Audi cars/car17.jpeg" alt="">
+                    <img src="Audi cars/car18.jpeg" alt="">
+                    <img src="Audi cars/car19.jpeg" alt="">
+                    <img src="Audi cars/car20.jpeg" alt="">
+                    <img src="Audi cars/car21.jpeg" alt="">
+                </div>
+                <button class="verright">
+                    <img src="images/se-deplacer.png" alt="">
+                </button>
+            </div>
+            <div class="texplusitera">
+                <div class="description">
+                    <h1>audi cars</h1>
+                    <p>it's free Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid vero nemo sunt
+                        possimus est ipsum animi eaque eius, a ad quisquam fugiat perspiciatis, quas asperiores fugit?
+                        Earum esse ipsam rem.</p>
+                </div>
+                <div class="Interaction">
+                    <img src="photos/coeur.png" alt="" class="lik">
+                    <img src="photos/commentaires2.png" class="com" alt="">
+                    <img src="photos/lien2.png" class="lien2" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="fasil"></div>
+        <!-- ------------------------ T O Y O T A -------------------------------------------------------- -->
+        <div class="baremenu">
+            <div class="picprofilecnt">
+                <img src="toyota cars/toyota logo (2).jpeg" alt="">
+            </div>
+            <div class="infouser">
+                <h3>TOYOTA <img src="photos/qualite2.png" alt=""></h3>
+                <p><img src="photos/utilisateur3.png" width="10" alt="">Mon 01-01-2024</p>
+                <img src="photos/email.png" class="emailbm" alt="">
+                <img src="photos/ellipse.png" alt="" class="elipse">
+            </div>
+        </div>
+        <div class="contentOfthis">
+            <div class="descriptionimg">
+                <button class="verleft">
+                    <img src="images/se-deplacer (1).png" alt="">
+                </button>
+                <div class="containerimgasa">
+                    <img src="toyota cars/car lg2.jpeg" class="imagen2" alt="">
+                    <img src="toyota cars/car18.jpeg" alt="">
+                    <img src="toyota cars/car1.jpeg" alt="">
+                    <img src="toyota cars/car2.jpeg" alt="">
+                    <img src="toyota cars/car3.jpeg" alt="">
+                    <img src="toyota cars/car4.jpeg" alt="">
+                    <img src="toyota cars/car5.jpeg" alt="">
+                    <img src="toyota cars/car6.jpeg" alt="">
+                    <img src="toyota cars/car7.jpeg" alt="">
+                    <img src="toyota cars/car8.jpeg" alt="">
+                    <img src="toyota cars/cars lg.jpeg" class="imagen2" alt="">
+                    <img src="toyota cars/car9.jpeg" alt="">
+                    <img src="toyota cars/car10.jpeg" alt="">
+                    <img src="toyota cars/car11.jpeg" alt="">
+                    <img src="toyota cars/car12.jpeg" alt="">
+                    <img src="toyota cars/car13.jpeg" alt="">
+                    <img src="toyota cars/car14.jpeg" alt="">
+                    <img src="toyota cars/car15.jpeg" alt="">
+                    <img src="toyota cars/car16.jpeg" alt="">
+                    <img src="toyota cars/car17.jpeg" alt="">
+                    <img src="toyota cars/car19.jpeg" alt="">
+                    <img src="toyota cars/car20.jpeg" alt="">
+                    <img src="toyota cars/car21.jpeg" alt="">
+
+                    <img src="toyota cars/Toyota supra.jpeg" class="imagen2" alt="">
+                    <img src="toyota cars/toyota truck.jpeg" class="imagen2" alt="">
+                    <img src="toyota cars/toyotamk5.jpeg" class="imagen2" alt="">
+                    <img src="toyota cars/toytota cer3.jpeg" class="imagen2" alt="">
+                </div>
+                <button class="verright">
+                    <img src="images/se-deplacer.png" alt="">
+                </button>
+            </div>
+            <div class="texplusitera">
+                <div class="description">
+                    <h1>BWM E30</h1>
+                    <p>it's free Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid vero nemo sunt
+                        possimus est ipsum animi eaque eius, a ad quisquam fugiat perspiciatis, quas asperiores fugit?
+                        Earum esse ipsam rem.</p>
+                </div>
+                <div class="Interaction">
+                    <img src="photos/coeur.png" alt="" class="lik">
+                    <img src="photos/commentaires2.png" class="com" alt="">
+                    <img src="photos/lien2.png" class="lien2" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="fasil"></div>
+        <!-- ---------- LAMBORGUININ---------------------------------------------------------------------- -->
+        <div class="baremenu">
+            <div class="picprofilecnt">
+                <img src="lmabo cars/lmaborghini logo.jpeg" alt="">
+            </div>
+            <div class="infouser">
+                <h3>LAMBORGHINI <img src="photos/qualite2.png" alt=""></h3>
+                <p><img src="photos/utilisateur3.png" width="10" alt="">Mon 01-01-2024</p>
+                <img src="photos/email.png" class="emailbm" alt="">
+                <img src="photos/ellipse.png" alt="" class="elipse">
+            </div>
+        </div>
+        <div class="contentOfthis">
+            <div class="descriptionimg">
+                <button class="verleft">
+                    <img src="images/se-deplacer (1).png" alt="">
+                </button>
+                <div class="containerimgasa">
+                    <img src="lmabo cars/car1.jpeg" class="imagen2" alt="">
+                    <img src="lmabo cars/car2.jpeg" class="imagen2" alt="">
+                    <img src="lmabo cars/car3.jpeg" class="imagen2" alt="">
+                    <img src="lmabo cars/car4.jpeg" class="imagen2" alt="">
+                    <img src="lmabo cars/car5.jpeg" class="imagen2" alt="">
+                    <img src="lmabo cars/car6.jpeg" class="imagen2" alt="">
+                    <img src="lmabo cars/car8.jpeg" class="imagen2" alt="">
+                    <img src="lmabo cars/car7.jpeg" class="imagen2" alt="">
+                    <img src="lmabo cars/car9.jpeg" class="imagen2" alt="">
+                </div>
+                <button class="verright">
+                    <img src="images/se-deplacer.png" alt="">
+                </button>
+            </div>
+            <div class="texplusitera">
+                <div class="description">
+                    <h1>lamborghini cars </h1>
+                    <p>it's free Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid vero nemo sunt
+                        possimus est ipsum animi eaque eius, a ad quisquam fugiat perspiciatis, quas asperiores fugit?
+                        Earum esse ipsam rem.</p>
+                </div>
+                <div class="Interaction">
+                    <img src="photos/coeur.png" alt="" class="lik">
+                    <img src="photos/commentaires2.png" class="com" alt="">
+                    <img src="photos/lien2.png" class="lien2" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="fasil"></div>
+        <!-- ___________ POSCHE CARS  -->
+        <div class="baremenu">
+            <div class="picprofilecnt">
+                <img src="posche cars/Porsche Logo.jpeg" alt="">
+            </div>
+            <div class="infouser">
+                <h3>PORCHE <img src="photos/qualite2.png" alt=""></h3>
+                <p><img src="photos/utilisateur3.png" width="10" alt="">Mon 01-01-2024</p>
+                <img src="photos/email.png" class="emailbm" alt="">
+                <img src="photos/ellipse.png" alt="" class="elipse">
+            </div>
+        </div>
+        <div class="contentOfthis">
+            <div class="descriptionimg">
+                <button class="verleft">
+                    <img src="images/se-deplacer (1).png" alt="">
+                </button>
+                <div class="containerimgasa">
+                    <img src="posche cars/car2.jpeg" class="imagen2" alt="">
+                    <img src="posche cars/car1.jpeg" class="imagen2" alt="">
+                    <img src="posche cars/car3.jpeg" class="imagen2" alt="">
+                    <img src="posche cars/car4.jpeg" class="imagen2" alt="">
+                    <img src="posche cars/car5.jpeg" class="imagen2" alt="">
+                    <img src="posche cars/car6.jpeg" class="imagen2" alt="">
+                    <img src="posche cars/car7.jpeg" class="imagen2" alt="">
+                    <img src="posche cars/car8.jpeg" class="imagen2" alt="">
+                    <img src="posche cars/car9.jpeg" class="imagen2" alt="">
+                    <img src="posche cars/car10.jpeg" class="imagen2" alt="">
+                    <img src="posche cars/Porsche Logo.jpeg" class="imagen2" alt="">
+                </div>
+                <button class="verright">
+                    <img src="images/se-deplacer.png" alt="">
+                </button>
+            </div>
+            <div class="texplusitera">
+                <div class="description">
+                    <h1>Posrche cars </h1>
+                    <p>it's free Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid vero nemo sunt
+                        possimus est ipsum animi eaque eius, a ad quisquam fugiat perspiciatis, quas asperiores fugit?
+                        Earum esse ipsam rem.</p>
+                </div>
+                <div class="Interaction">
+                    <img src="photos/coeur.png" alt="" class="lik">
+                    <img src="photos/commentaires2.png" class="com" alt="">
+                    <img src="photos/lien2.png" class="lien2" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="fasil"></div>
+        <!-- ________ VOLSVAGEN-------________  -->
+        <div class="baremenu">
+            <div class="picprofilecnt">
+                <img src="volvagnn cars/vosvagn logo.jpeg" alt="">
+            </div>
+            <div class="infouser">
+                <h3>VOLSVAGN <img src="photos/qualite2.png" alt=""></h3>
+                <p><img src="photos/utilisateur3.png" width="10" alt="">Mon 01-01-2024</p>
+                <img src="photos/email.png" class="emailbm" alt="">
+                <img src="photos/ellipse.png" alt="" class="elipse">
+            </div>
+        </div>
+        <div class="contentOfthis">
+            <div class="descriptionimg">
+                <button class="verleft">
+                    <img src="images/se-deplacer (1).png" alt="">
+                </button>
+                <div class="containerimgasa">
+                    <img src="volvagnn cars/vosvagn logo.jpeg" class="imagen2" alt="">
+                </div>
+                <button class="verright">
+                    <img src="images/se-deplacer.png" alt="">
+                </button>
+            </div>
+            <div class="texplusitera">
+                <div class="description">
+                    <h1>volsvagn </h1>
+                    <p>it's free Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid vero nemo sunt
+                        possimus est ipsum animi eaque eius, a ad quisquam fugiat perspiciatis, quas asperiores fugit?
+                        Earum esse ipsam rem.</p>
+                </div>
+                <div class="Interaction">
+                    <img src="photos/coeur.png" alt="" class="lik">
+                    <img src="photos/commentaires2.png" class="com" alt="">
+                    <img src="photos/lien2.png" class="lien2" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="fasil"></div>
+        <!-- ------------------- DODGE ------------0000 -->
+        <div class="baremenu">
+            <div class="picprofilecnt">
+                <img src="dodge cars/Dodge Hellcat Logo.jpeg" alt="">
+            </div>
+            <div class="infouser">
+                <h3>DODGE CH <img src="photos/qualite2.png" alt=""></h3>
+                <p><img src="photos/utilisateur3.png" width="10" alt="">Mon 01-01-2024</p>
+                <img src="photos/email.png" class="emailbm" alt="">
+                <img src="photos/ellipse.png" alt="" class="elipse">
+            </div>
+        </div>
+        <div class="contentOfthis">
+            <div class="descriptionimg">
+                <button class="verleft">
+                    <img src="images/se-deplacer (1).png" alt="">
+                </button>
+                <div class="containerimgasa">
+                    <img src="dodge cars/car133.jpeg" class="imagen2" alt="">
+                    <img src="dodge cars/car2.jpeg" alt="">
+                    <img src="dodge cars/car3.jpeg" alt="">
+                    <img src="dodge cars/car4.jpeg" alt="">
+                    <img src="dodge cars/car5.jpeg" alt="">
+                    <img src="dodge cars/Dodge.jpeg" alt="">
+                    <img src="dodge cars/Dodge Charger.jpeg" alt="">
+                    <img src="dodge cars/car6.jpeg" alt="">
+                    <img src="dodge cars/car7.jpeg" alt="">
+                    <img src="dodge cars/car8.jpeg" alt="">
+                    <img src="dodge cars/car9.jpeg" alt="">
+                    <img src="dodge cars/car10.jpeg" alt="">
+                    <img src="dodge cars/car11.jpeg" alt="">
+                    <img src="dodge cars/car12.jpeg" alt="">
+                    <img src="dodge cars/car13.jpeg" alt="">
+                    <img src="dodge cars/car14.jpeg" alt="">
+                    <img src="dodge cars/car15.jpeg" alt="">
+                    <img src="dodge cars/car16.jpeg" alt="">
+                    <img src="dodge cars/car17.jpeg" alt="">
+                    <img src="dodge cars/DODGE LOGO.jpeg" class="imagen2" alt="">
+                </div>
+                <button class="verright">
+                    <img src="images/se-deplacer.png" alt="">
+                </button>
+            </div>
+            <div class="texplusitera">
+                <div class="description">
+                    <h1>dodge cars </h1>
+                    <p>it's free Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid vero nemo sunt
+                        possimus est ipsum animi eaque eius, a ad quisquam fugiat perspiciatis, quas asperiores fugit?
+                        Earum esse ipsam rem.</p>
+                </div>
+                <div class="Interaction">
+                    <img src="photos/coeur.png" alt="" class="lik">
+                    <img src="photos/commentaires2.png" class="com" alt="">
+                    <img src="photos/lien2.png" class="lien2" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="fasil"></div>
+        <!-- ------------------- RAM  ------------0000 -->
+        <div class="baremenu">
+            <div class="picprofilecnt">
+                <img src="ram cars/ram logo.jpeg" alt="">
+            </div>
+            <div class="infouser">
+                <h3>RAM <img src="photos/qualite2.png" alt=""></h3>
+                <p><img src="photos/utilisateur3.png" width="10" alt="">Mon 01-01-2024</p>
+                <img src="photos/email.png" class="emailbm" alt="">
+                <img src="photos/ellipse.png" alt="" class="elipse">
+            </div>
+        </div>
+        <div class="contentOfthis">
+            <div class="descriptionimg">
+                <button class="verleft">
+                    <img src="images/se-deplacer (1).png" alt="">
+                </button>
+                <div class="containerimgasa">
+                    <img src="ram cars/ram logo.jpeg" class="imagen2" alt="">
+                </div>
+                <button class="verright">
+                    <img src="images/se-deplacer.png" alt="">
+                </button>
+            </div>
+            <div class="texplusitera">
+                <div class="description">
+                    <h1>RAM </h1>
+                    <p>it's free Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid vero nemo sunt
+                        possimus est ipsum animi eaque eius, a ad quisquam fugiat perspiciatis, quas asperiores fugit?
+                        Earum esse ipsam rem.</p>
+                </div>
+                <div class="Interaction">
+                    <img src="photos/coeur.png" alt="" class="lik">
+                    <img src="photos/commentaires2.png" class="com" alt="">
+                    <img src="photos/lien2.png" class="lien2" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="fasil"></div>
+        <!-- ------------------- APPEL  ------------0000 -->
+        <div class="baremenu">
+            <div class="picprofilecnt">
+                <img src="appel/appel logo.jpeg" alt="">
+            </div>
+            <div class="infouser">
+                <h3>APPEL <img src="photos/qualite2.png" alt=""></h3>
+                <p><img src="photos/utilisateur3.png" width="10" alt="">Mon 01-01-2024</p>
+                <img src="photos/email.png" class="emailbm" alt="">
+                <img src="photos/ellipse.png" alt="" class="elipse">
+            </div>
+        </div>
+        <div class="contentOfthis">
+            <div class="descriptionimg">
+                <button class="verleft">
+                    <img src="images/se-deplacer (1).png" alt="">
+                </button>
+                <div class="containerimgasa">
+                    <img src="appel/appel logo.jpeg" class="imgappel" alt="">
+                    <img src="appel/i3-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/i14-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/i4-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/i10-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/ip2-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/ip3-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/ip4-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/ip5-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/ip6-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/ip7-removebg-preview (1).png" class="imgappel" alt="">
+                    <img src="appel/ip8-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/ip9-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/ip10-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/ip11-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/ip16-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/ip15-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/i11-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/i14-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/i3-removebg-preview (1).png" class="imgappel" alt="">
+                    <img src="appel/i4-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/i5-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/i7-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/i8-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/i9-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/m1-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/m1-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/m2-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/m3-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/m4-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/m5-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/m6-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/m7-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/m8-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/m9-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/m10-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/a1-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/a2-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/a3-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/a4-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/a5-removebg-preview.png" class="imgappel" alt="">
+                    <img src="appel/a6-removebg-preview (1).png" class="imgappel" alt="">
+
+                </div>
+                <button class="verright">
+                    <img src="images/se-deplacer.png" alt="">
+                </button>
+            </div>
+            <div class="texplusitera">
+                <div class="description">
+                    <h1>Appel </h1>
+                    <p>it's free Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid vero nemo sunt
+                        possimus est ipsum animi eaque eius, a ad quisquam fugiat perspiciatis, quas asperiores fugit?
+                        Earum esse ipsam rem.</p>
+                </div>
+                <div class="Interaction">
+                    <img src="photos/coeur.png" alt="" class="lik">
+                    <img src="photos/commentaires2.png" class="com" alt="">
+                    <img src="photos/lien2.png" class="lien2" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="fasil"></div>
+        <!-- ------------------- SAMSUNG   ------------0000 -->
+        <div class="baremenu">
+            <div class="picprofilecnt">
+                <img src="samsung/Samsung logo wallpaper.jpeg" alt="">
+            </div>
+            <div class="infouser">
+                <h3>SAMSUNG <img src="photos/qualite2.png" alt=""></h3>
+                <p><img src="photos/utilisateur3.png" width="10" alt="">Mon 01-01-2024</p>
+                <img src="photos/email.png" class="emailbm" alt="">
+                <img src="photos/ellipse.png" alt="" class="elipse">
+            </div>
+        </div>
+        <div class="contentOfthis">
+            <div class="descriptionimg">
+                <button class="verleft">
+                    <img src="images/se-deplacer (1).png" alt="">
+                </button>
+                <div class="containerimgasa">
+                    <img src="samsung/Samsung _ Galaxy Fold.jpeg" class="smimg" alt="">
+                    <img src="samsung/s1-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s2-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s3-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s4-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s5-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s6-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s7-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s8-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s9-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s10-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s11-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s14-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s15-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s16-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s17-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s18-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s19-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s20-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s21-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s22-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s23-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s24-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s25-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s26-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s27-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s28-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s29-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s30-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s31-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s132-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s33-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s34-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s35-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s36-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s37removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s38-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s39-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s40-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s41-removebg-preview.png" class="smimg" alt="">
+                    <img src="samsung/s42-removebg-preview.png" class="smimg" alt="">
+                </div>
+                <button class="verright">
+                    <img src="images/se-deplacer.png" alt="">
+                </button>
+            </div>
+            <div class="texplusitera">
+                <div class="description">
+                    <h1>RAM </h1>
+                    <p>it's free Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid vero nemo sunt
+                        possimus est ipsum animi eaque eius, a ad quisquam fugiat perspiciatis, quas asperiores fugit?
+                        Earum esse ipsam rem.</p>
+                </div>
+                <div class="Interaction">
+                    <img src="photos/coeur.png" alt="" class="lik">
+                    <img src="photos/commentaires2.png" class="com" alt="">
+                    <img src="photos/lien2.png" class="lien2" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="fasil"></div>
+        <!-- ------------------- ADIDAS   ------------0000 -->
+        <div class="baremenu">
+            <div class="picprofilecnt">
+                <img src="adidas/adidas logog.jpeg" alt="">
+            </div>
+            <div class="infouser">
+                <h3>ADIDAS <img src="photos/qualite2.png" alt=""></h3>
+                <p><img src="photos/utilisateur3.png" width="10" alt="">Mon 01-01-2024</p>
+                <img src="photos/email.png" class="emailbm" alt="">
+                <img src="photos/ellipse.png" alt="" class="elipse">
+            </div>
+        </div>
+        <div class="contentOfthis">
+            <div class="descriptionimg">
+                <button class="verleft">
+                    <img src="images/se-deplacer (1).png" alt="">
+                </button>
+                <div class="containerimgasa">
+                    <img src="adidas/adidas logog.jpeg" class="imagen2" alt="">
+                </div>
+                <button class="verright">
+                    <img src="images/se-deplacer.png" alt="">
+                </button>
+            </div>
+            <div class="texplusitera">
+                <div class="description">
+                    <h1>adidas clothes </h1>
+                    <p>it's free Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid vero nemo sunt
+                        possimus est ipsum animi eaque eius, a ad quisquam fugiat perspiciatis, quas asperiores fugit?
+                        Earum esse ipsam rem.</p>
+                </div>
+                <div class="Interaction">
+                    <img src="photos/coeur.png" alt="" class="lik">
+                    <img src="photos/commentaires2.png" class="com" alt="">
+                    <img src="photos/lien2.png" class="lien2" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="fasil"></div>
+        <!-- ------------------- NIKE  ------------0000 -->
+        <div class="baremenu">
+            <div class="picprofilecnt">
+                <img src="nike/39 Signs You Grew Up In The '90s.jpeg" alt="">
+            </div>
+            <div class="infouser">
+                <h3>NIKE <img src="photos/qualite2.png" alt=""></h3>
+                <p><img src="photos/utilisateur3.png" width="10" alt="">Mon 01-01-2024</p>
+                <img src="photos/email.png" class="emailbm" alt="">
+                <img src="photos/ellipse.png" alt="" class="elipse">
+            </div>
+        </div>
+        <div class="contentOfthis">
+            <div class="descriptionimg">
+                <button class="verleft">
+                    <img src="images/se-deplacer (1).png" alt="">
+                </button>
+                <div class="containerimgasa">
+                    <img src="nike/NIKE 3D Neon 2.jpeg" class="imagen2" alt="">
+                </div>
+                <button class="verright">
+                    <img src="images/se-deplacer.png" alt="">
+                </button>
+            </div>
+            <div class="texplusitera">
+                <div class="description">
+                    <h1>nike clothes </h1>
+                    <p>it's free Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid vero nemo sunt
+                        possimus est ipsum animi eaque eius, a ad quisquam fugiat perspiciatis, quas asperiores fugit?
+                        Earum esse ipsam rem.</p>
+                </div>
+                <div class="Interaction">
+                    <img src="photos/coeur.png" alt="" class="lik">
+                    <img src="photos/commentaires2.png" class="com" alt="">
+                    <img src="photos/lien2.png" class="lien2" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="fasil"></div>
+    </div>
+
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

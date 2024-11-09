@@ -1,0 +1,308 @@
+.buypage {
+    position: absolute;
+    top:-1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    background-color: #ffff;
+    z-index: 201;
+    transition: cubic-bezier(0.23, 1, 0.320, 1) 0.5s;
+}
+.buypage.activebuypage {
+    position: absolute;
+    top:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    background-color: #ffff;
+    z-index: 201;
+}
+
+.baremenu {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+}
+
+.baremenu h1 {
+    position: relative;
+    filter: drop-shadow(1px 1px 1px #000AFF);
+    width: 100px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 3px;
+    justify-content: flex-start;
+    color: #000000;
+    border-bottom: solid 7px #58D68D;
+    border-radius: 0 0 0 200px;
+}
+
+.baremenu h1 img {
+    position: absolute;
+    width: 40px;
+    right: 5px;
+
+}
+
+.baremenu input {
+    width: 55%;
+    margin-left: 50px;
+    outline: none;
+    text-align: center;
+    border: solid 1px black;
+    height: 30px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-family: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.baremenu input:focus {
+    border: solid 1px #0793FF;
+    filter: drop-shadow(0 0 2px #0793FF);
+}
+
+.baremenu .ediv {
+    padding: 5px 20px;
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ediv button {
+    height: 40px;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 80px;
+    position: relative;
+    z-index: 10;
+}
+
+.ediv button img {
+    border-bottom: solid 1px transparent;
+    padding-bottom: 5px;
+    width: 28px;
+}
+
+.ediv button p {
+    font-size: 13px;
+    z-index: 1;
+    color: transparent;
+    position: absolute;
+    border-bottom: solid 1px transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.ediv button:hover {
+    background-color: #fafcfc;
+}
+
+.ediv button:hover .mg {
+    border-bottom: solid 1px black;
+}
+
+.ediv button:hover .pk {
+    color: black;
+    transition: 0.3s;
+    bottom: -40px;
+    padding: 5px 10px;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.autre {
+    width: 35px;
+}
+
+.authere {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    position: relative;
+}
+
+.authere p {
+    font-size: 13px;
+    z-index: 1;
+    color: transparent;
+    font-weight: 700;
+    border-bottom: solid 1px transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+}
+
+.authere img {
+    border-bottom: solid 1px transparent;
+    padding-bottom: 7px;
+    width: 25px;
+}
+
+.authere:hover .autre {
+
+    border-bottom: solid 1px black;
+}
+
+.authere:hover .autherp {
+    border-radius: 6px;
+    transition: 0.3s;
+    bottom: -40px;
+    padding: 5px 10px;
+    background-color: #000000;
+    color: #fff;
+}
+
+.containerprd {
+    width: 100%;
+    height: 800px;
+    max-width: 1500px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.containerprd form {
+    padding: 8px;
+    filter: drop-shadow(6px 6px 6px black);
+    width: 300px;
+    margin: 20px;
+    min-height: 300px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    border: solid 2px transparent;
+    transition: 0.3s;
+}
+
+.containerprd form:hover {
+    padding: 8px;
+    background-color: #D5F5E3;
+    filter: drop-shadow(10px 10px 10px #000000);
+    width: 300px;
+    margin: 20px;
+    margin-top: -5px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    border: solid 2px #000000;
+}
+
+.parfume {
+    filter: drop-shadow(16px 10px 10px black);
+    width: 160px;
+}
+
+.hat {
+    filter: drop-shadow(16px 10px 10px black);
+    width: 141px;
+}
+
+.cloth {
+    filter: drop-shadow(16px 10px 10px black);
+    width: 140px;
+}
+
+.clothfinal {
+    filter: drop-shadow(16px 10px 10px black);
+    width: 200px;
+}
+
+.shoe {
+    filter: drop-shadow(16px 10px 10px black);
+    width: 180px;
+}
+
+.containerprd form h3 {
+    color: #000000;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}
+.containerprd form a {
+    position: relative;
+}
+.containerprd form a p {
+    font-size: 16px;
+    font-weight: 800;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px 10px;
+    background-color: #00497a;
+    color: #ffffff;
+    border-radius: 25px;
+    position: relative;
+}
+
+.containerprd form a p:hover {
+    font-size: 16px;
+    transition: 0.4s;
+    font-weight: 800;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px 10px;
+    background-color: #53e2ff;
+    color: #000000;
+    border-radius: 25px;
+}
+
+.containerprd form a h6 {
+    position: absolute;
+    right: -80px;
+    color: black;
+    border-bottom: solid 2px black;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+    top: 10px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.containerprd form a h6:hover {
+    position: absolute;
+    right: -80px;
+    color: black;
+    background-color: black;
+    color: #fff;
+    border-bottom: solid 2px black;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}

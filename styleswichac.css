@@ -1,0 +1,227 @@
+.SWICHACCOUNT {
+    width: 100%;
+    height: 700px;
+    position: fixed;
+    top: -800px;
+    z-index: 90;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+}
+
+.SWICHACCOUNT.activeSWICHACCOUNT {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(0,0,0,0.6);
+}
+
+#btnbaaack {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    width: 20px;
+    align-items: center;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+#btnbaaack p{
+    color: transparent;
+    position: absolute;
+    z-index: 4;
+}
+
+
+#btnbaaack img {
+    z-index: 5;
+    width: 12px;
+}
+#btnbaaack img:hover~ .pbutun{
+    transform: translateY(20px);
+    transition: 0.4s ease;
+    color: #fff;
+    font-size: 12px;
+}
+.SWICHACCOUNT .DIV1 {
+    width: 500px;
+    height: 650px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px 50px;
+}
+
+.SWICHACCOUNT .DIV1 h1 {
+    color: #1E9846;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    border-bottom: solid 2px #00FF67;
+    padding: 5px 10px;
+}
+
+.SWICHACCOUNT .DIV1 .button4 {
+    background-color: #1E9846;
+    font-size: 20px;
+    width: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    padding: 5px 10px;
+    border: none;
+    transition: 0.3s all ease;
+}
+
+.SWICHACCOUNT .DIV1 .button4:hover {
+    background-color: #ffffff;
+    font-size: 20px;
+    width: 170px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    padding: 5px 10px;
+    border: none;
+}
+
+.SWICHACCOUNT .DIV1 .BTNN2 {
+    background-color: #1E9846;
+    font-size: 15px;
+    height: 20px;
+    width: 250px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    transition: 0.3s;
+}
+
+.SWICHACCOUNT .DIV1 .BTNN2:hover {
+    background-color: #ffffff;
+    font-size: 15px;
+    height: 20px;
+    width: 270px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.SWICHACCOUNT .DIV1 .cntlabelplusinput {
+    width: 95%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+
+}
+
+.cntlabelplusinput label {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+
+/*.cntlabelplusinput label.activelabeL {
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    font-size: 12px;
+    z-index: 5;
+    top: -15px;
+    background-color: #000;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    left: 10px;
+    border-radius: 50px;
+    border-bottom: solid 1px #fff;
+}
+*/
+.cntlabelplusinput input {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #000000;
+    border: solid 1px #1E9846;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 800;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cntlabelplusinput input:focus {
+    border: solid 1px #005DFF;
+    filter: drop-shadow(0 0 5px #005DFF);
+
+}
+
+.cntlabelplusinput label p {
+    color: #1E9846;
+    width: auto;
+    position: absolute;
+    left: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cntlabelplusinput label input:user-valid~.labelp {
+    transform: translateY(-30px);
+    font-size: 12px;
+    transition: 0.3s ease;
+    background-color: #000000;
+    width: auto;
+    color: #fff;
+    position: absolute;
+    left: 10px;
+    padding: 5px 15px;
+}
+
+.cntlabelplusinput label input:focus~.labelp {
+    transform: translateY(-30px);
+    font-size: 12px;
+    transition: 0.3s ease;
+    background-color: #000000;
+    width: auto;
+    color: #fff;
+    position: absolute;
+    left: 10px;
+    padding: 5px 15px;
+}
+
+.SWICHACCOUNT .DIV1 a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: solid 1px transparent;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+
+.SWICHACCOUNT .DIV1 a:hover {
+    border-bottom: solid 1px #fff;
+
+}

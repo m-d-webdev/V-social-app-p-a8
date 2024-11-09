@@ -1,0 +1,321 @@
+#mohtawa {
+    position: fixed;
+    width: 90%;
+    height: 85%;
+    bottom: 20px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#mohtawa .baremenu {
+    width: 90%;
+    padding: 5px 10px;
+    min-height: 10%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+
+}
+
+#mohtawa .baremenu .picprofilecnt {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mohtawa .baremenu .picprofilecnt img {
+    width: 66px;
+    border: none;
+}
+
+#mohtawa .baremenu .infouser {
+    width: 90%;
+    height: 90%;
+}
+
+#mohtawa .baremenu .infouser h3 {
+    width: 20%;
+    font-size: 18px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: 800;
+    padding: 3px 0px 0 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mohtawa .baremenu .infouser h3 img {
+    width: 18px;
+    margin-left: 8px;
+    border-radius: 50%;
+}
+
+#mohtawa .baremenu .infouser p {
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: 200;
+    padding: 5px 0px 0 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#mohtawa .baremenu .infouser p img {
+    width: 14px;
+    margin-right: 6px;
+}
+
+#mohtawa .baremenu .emailbm {
+    position: absolute;
+    width: 30px;
+    right: 15%;
+    top: 30%;
+}
+
+#mohtawa .baremenu .emailbm:hover {
+    position: absolute;
+    width: 30px;
+    right: 15%;
+    top: 30%;
+    padding-bottom: 5px;
+    border-bottom: solid 2px #ffff;
+}
+
+#mohtawa .baremenu .elipse {
+    position: absolute;
+    width: 25px;
+    right: 5%;
+    top: 30%;
+}
+
+#mohtawa .baremenu .elipse:hover {
+    position: absolute;
+    width: 25px;
+    right: 5%;
+    top: 30%;
+    border-bottom: solid 2px #ffff;
+}
+
+/*-----------------------------------------------*/
+
+#mohtawa .contentOfthis {
+    min-height: 85%;
+    width: 90%;
+    padding: 5px 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+#mohtawa .contentOfthis .descriptionimg {
+    width: 100%;
+    height: 80%;
+    overflow-Y: scroll;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    align-items: center;
+}
+#mohtawa .contentOfthis .descriptionimg button{
+    height: 80px;
+    width:80px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    background-color: transparent;
+    align-items: center;
+    border: none;
+    opacity: .5;
+}
+#mohtawa .contentOfthis .descriptionimg button:hover{
+    opacity:2;
+}
+.verleft, .verright{
+    max-width: 40px;
+}
+.descriptionimg::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+.descriptionimg::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    border: solid 1px black;
+}
+#mohtawa .contentOfthis .descriptionimg .containerimgasa{
+    width: 650px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow-y: visible;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    border-radius: 10px;
+}
+.containerimgasa::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+.containerimgasa::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    border: solid 1px black;
+}
+#mohtawa .contentOfthis .descriptionimg .containerimgasa img{
+  scroll-snap-align:start;
+    min-width: 100%;
+  
+}
+#mohtawa .contentOfthis .descriptionimg .containerimgasa .imgappel{
+  scroll-snap-align:start;
+  min-width: 60%;
+  padding: 0px 100px;
+  border: solid 5px black;
+  filter: drop-shadow(0 0 5px #000000);
+
+}
+#mohtawa .contentOfthis .descriptionimg .containerimgasa .smimg{
+    scroll-snap-align:start;
+    min-width: 50%;
+    padding: 0px 150px;
+    border: solid 5px black;
+    filter: drop-shadow(0 0 5px #000000);
+}
+.texplusitera{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+#mohtawa .contentOfthis .description {
+    padding:0 10px;
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #fff;
+}
+
+#mohtawa .contentOfthis .description h1{
+    min-height: 6%;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    width: auto;
+    color:#00FF00;
+    border-bottom: solid 1px #00FF00;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+#mohtawa .contentOfthis .description p{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    overflow: auto;
+    line-height: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-y: auto;
+    padding-top: 20px;
+}
+#mohtawa .contentOfthis .Interaction {
+    width:240px;
+    min-width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+    position: relative;
+}
+
+#mohtawa .contentOfthis .Interaction .lik {
+    width: 30px;
+    position: absolute;
+    left: 0;
+    top: -13px;
+
+}
+#mohtawa .contentOfthis .Interaction img{
+  margin: 20px;
+}
+
+.lik.activelik {
+    animation: tgl 1.5s ;
+    animation-direction: alternate;
+    filter: drop-shadow(0 0 3px red);
+}
+
+
+@keyframes tgl {
+    0% {
+        width: 00px;
+        left: -470px;
+        top: -350px;
+        filter: drop-shadow(0 0 13px red);
+        opacity: 0;
+
+    }
+    25% {
+        width: 400px;
+        left: -650px;
+        top: -500px;
+        filter: drop-shadow(0 0 13px red);
+        opacity: 1;
+
+
+    }
+    50% {
+        width: 400px;
+        left: -650px;
+        top: -500px;
+        filter: drop-shadow(0 0 13px red);
+        opacity: 1;
+    } 
+ 
+    
+    100% {
+        width: 30px;
+        left: 0px;
+        top: -13px;
+        filter: drop-shadow(0 0 13px red);
+        opacity: 1;
+
+    }
+}
+.fasil{
+    width: 100%;
+    min-height:100px;
+    background-color: #000000;
+}
+
+#mohtawa::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+}
+
+#mohtawa::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    border: solid 1px black;
+    background-color: rgb(255, 255, 255);
+}

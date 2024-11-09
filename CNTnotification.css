@@ -1,0 +1,110 @@
+.CNTnotification {
+    position: absolute;
+    width: 450px;
+    left: -808px;
+    height: 800px;
+    background-color: #000;
+    top: 8px;
+    border-radius: 10px;
+    border: solid 2px #01BF2F;
+    transition: ease-out 0.3s;
+}
+
+.CNTnotification.activeCNTnotification {
+    position: absolute;
+    width: 400px;
+    left: 8px;
+    height: 800px;
+    background-color: #000;
+    top: 8px;
+    border-radius: 10px;
+    z-index: 200;
+    border: solid 2px #01BF2F;
+}
+
+.CNTnotification .bnT1 {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    transition: all ease 0.2s;
+}
+
+.CNTnotification .bnT1:hover {
+    border-bottom: solid 2px #03FF40;
+
+}
+
+.CNTnotification .bnT1 img {
+    width: 15px;
+    padding: 5px;
+}
+
+.CNTnotification h1 {
+    color: #03FF40;
+    font-size: 22px;
+    position: absolute;
+    top: 10px;
+    left: 6px;
+    border-bottom: solid 3px #03FF40;
+}
+
+.CNTnotification .dv {
+    width: 98%;
+    top: 60px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-top: 20px;
+    left: 4px;
+    background-color: #000000;
+    max-height: 700px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.CNTnotification .dv li {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 95%;
+    padding-bottom: 8px;
+    color: #fff;
+    margin: 10px;
+    border-bottom: solid 2px transparent;
+    min-height: 45px;
+    background-color: #000000;
+}
+.CNTnotification .dv li:hover{
+    color: #000;
+    background-color: #fff;
+    border-bottom: solid 2px #03FF40;
+} 
+.CNTnotification .dv li .imag1{
+    width: 40px;
+    border-radius: 50%;
+}.CNTnotification .dv li .imag2{
+    padding: 5px 10px;
+    margin-top: 8px;
+    width: 10px;
+    border-bottom: solid 2px transparent;
+}
+.CNTnotification .dv li .imag2:hover{
+    border-bottom: solid 2px #000000;
+
+}
+.CNTnotification .dv li  h6{
+    position: absolute;
+    bottom: 2px;
+    left: 80px;
+}
+.CNTnotification .dv li  p{
+    padding-left: 20px;
+    width: 70%;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 700;
+}
